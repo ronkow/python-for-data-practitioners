@@ -15,4 +15,6 @@ After that, type (or modify, if you like) and run the code to build your muscle 
 
 ### WHERE DO I RUN PYTHON CODE?
 
-Software for writing and running code are called Integrated Development Environments (IDE). For beginners in Python, we recommend [Jupyter-Lab](https://jupyter.org). For ease of environment management, we recommend [conda](https://docs.conda.io/en/latest/)
+Software for writing and running code are called Integrated Development Environments (IDE). With the different choices of IDEs and the different ways to install Python (or the Python Interpreter, to be precise), installing and setting up your programming environment for the first time can be a tricky and tedious process. The Python Interpreter is the software that checks and executes your Python code. One option is to install it from the official [Python website](https://www.python.org/). However, we do not recommend this option for beginners because the setup can be tricky.
+
+Instead, for ease of environment management, we recommend downloading and installing the [Miniconda distribution](https://www.anaconda.com/docs/getting-started/miniconda/main#should-i-install-miniconda-or-anaconda-distribution) in [Conda](https://docs.conda.io/en/latest/). This distribution contains the Python Interpreter and the [Jupyter-Lab](https://jupyter.org) IDE. 
