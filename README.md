@@ -191,8 +191,4 @@ In any cell, enter your code and click on the Run button (or use the keyboard sh
 </kbd>
 <br><br>
 
-You are now ready for your first lesson.
-
-<!--At this point, you may also start to wonder what exactly are packages and environments, and why there are so many packages installed by default.  -->
-
-
+Please refer to the JupyterLab [documentation](https://jupyterlab.readthedocs.io/en/latest/) for a complete user guide. You are now ready for our lessons.
