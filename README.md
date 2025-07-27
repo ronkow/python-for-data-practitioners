@@ -47,8 +47,19 @@ Open Anaconda Prompt, which is a command line application for managing your inst
 </kbd>
 <br><br>
 
-This 'conda list' command lists all the Python packages installed in the `base` environment.
+This `conda list` command lists all the Python packages installed in the `base` environment. Missing from this list is JupyterLab, which we need to install. Enter `pip install jupyterlab` at the prompt:
 
-At this point, you may start to realise that installation and setup is a complex process. You may also start to wonder what exactly are packages and environments, and why there are so many packages installed by default.  
+<kbd>
+<img src="./images/pip_install_jupyterlab.png" width="500" alt="Python IDLE">
+</kbd>
+<br><br>
 
-Missing from this list is JupyterLab, which we need to install.
+This command downloads and installs JupyterLab from the [Python Package Index](https://pypi.org/project/jupyterlab/), a repository of all Python packages created by developers all over the world. Other commands for installing JupyterLab is provided in [Python Package Index](https://pypi.org/project/jupyterlab/), including `conda install -c conda-forge jupyterlab`, which downloads and installs JupyterLab from the [Conda Forge](https://conda-forge.org/) repository.
+
+
+
+
+
+At this point, you may also start to wonder what exactly are packages and environments, and why there are so many packages installed by default.  
+
+
