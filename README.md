@@ -4,7 +4,7 @@ Welcome!
 
 This course in Python programming is for people who have never written and run any code in any programming language before.
 It assumes you have some basic math knowledge (e.g. prime numbers, sets, functions).
-It does not assume you know any programming terminology and concepts (not specific to Python) which are necessary knowledge to be a competent programmer.  
+It does not assume you know any programming terminology and concepts (not specific to Python).  
  
 Learn programming like you would learn a foreign language - bit by bit over a few months, regular reading and writing, and short practices everyday.
 There are hundreds of concepts and code patterns to learn.
