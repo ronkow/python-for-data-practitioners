@@ -40,7 +40,7 @@ Once installed, you will see the following two applications (screenshot from Win
 </kbd>
 <br><br>
 
-Open Anaconda Prompt, which is a command line application for managing your installations and environments. It shows the name of the default environment, which is `base`. Enter `conda list` at the prompt:
+Open Anaconda Prompt, which is a command line application for managing your installations. It shows the name of the default environment, which is `base`. Enter `conda list` at the prompt:
 
 <kbd>
 <img src="./images/conda_list.png" width="500" alt="Python IDLE">
