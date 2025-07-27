@@ -17,9 +17,9 @@ After that, type (or modify, if you like) and run the code to build your muscle 
 
 ### HOW DO I RUN PYTHON CODE?
 
-To run Python code, you need to install the Python Interpreter, the software that checks and executes Python code. While it is possible to type your code in Notepad and run your code with just the Python Interpreter installed, it is much easier to type and run your code in an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment). IDEs are software that help programmers to manage software projects and write code efficiently.     
+To run Python code, you need to install the Python Interpreter (the software that checks and executes Python code). While it is possible to type your code in Notepad and run your code with just the Python Interpreter installed, it is much easier to type and run your code in an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment). IDEs are software that help programmers to manage software projects and write code efficiently.     
 
-Given the different ways you can install the Python Interpreter (which we will refer to as Python when it is clear that we are refering to the software, not the language) and the many choices of IDEs that support Python, installing and setting up Python and a suitable IDE for the first time is a tricky process. 
+Installing and setting up Python and a suitable IDE for the first time is a tricky process because there are different ways you can install the Python Interpreter (which we will refer to as Python when it is clear that we are refering to the software, not the language) and there are many IDEs that support Python, . 
 
 You can install Python from the official [Python website](https://www.python.org/). This installation includes a basic interactive IDE called IDLE (Integrated Development and Learning Environment):
 
