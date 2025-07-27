@@ -14,3 +14,5 @@ We present code examples and provide coding exercises with solutions. Your goal 
 After that, type (or modify, if you like) and run the code to build your muscle memory.    
 
 ### WHERE DO I RUN PYTHON CODE?
+
+Software for writing and running code are called Integrated Development Environments (IDE). For beginners in Python, we recommend [Jupyter-Lab](https://jupyter.org). For ease of environment management, we recommend [conda](https://docs.conda.io/en/latest/)
