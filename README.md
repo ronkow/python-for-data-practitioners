@@ -54,12 +54,24 @@ This `conda list` command lists all the Python packages installed in the `base` 
 </kbd>
 <br><br>
 
-This command downloads and installs JupyterLab from the [Python Package Index](https://pypi.org/project/jupyterlab/), a repository of all Python packages created by developers all over the world. Other commands for installing JupyterLab is provided in [Python Package Index](https://pypi.org/project/jupyterlab/), including `conda install -c conda-forge jupyterlab`, which downloads and installs JupyterLab from the [Conda Forge](https://conda-forge.org/) repository.
+This command downloads and installs JupyterLab (and other packages it depends on) from the [Python Package Index](https://pypi.org/project/jupyterlab/), a repository of all Python packages created by developers all over the world. Other options for installing JupyterLab is provided in [Python Package Index](https://pypi.org/project/jupyterlab/), including the command `conda install -c conda-forge jupyterlab`, which downloads and installs JupyterLab from the [Conda Forge](https://conda-forge.org/) repository.
 
+To type and run your code interactively, use Notebooks. Select `File` > `Notebook` to open a new Notebook, then select the default option (Python 3):
 
+<kbd>
+<img src="./images/jupyterlab_notebook_select.png" width="500" alt="Python IDLE">
+</kbd>
+<br><br>
 
+In the first cell, enter your code and click on the Run button (or use the keyboard shortcut `Shift` `Enter`):
 
+<kbd>
+<img src="./images/jupyterlab_notebook_hello.png" width="500" alt="Python IDLE">
+</kbd>
+<br><br>
 
-At this point, you may also start to wonder what exactly are packages and environments, and why there are so many packages installed by default.  
+You are now ready for your first lesson.
+
+<!--At this point, you may also start to wonder what exactly are packages and environments, and why there are so many packages installed by default.  -->
 
 
