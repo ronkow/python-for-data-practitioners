@@ -7,7 +7,8 @@ It assumes you have some basic math knowledge (e.g. prime numbers, sets, functio
 It does not assume you know any programming terminology and concepts (not specific to Python).  
  
 Learn programming like you would learn a foreign language - incrementally over months and years through regular reading and writing and short practices everyday.
-If you are a full-time student or have a day job, it is more effective to commit to 30 minutes of focused practice a day than to try to learn everything in a few weeks.
+Just as you do not master a foreign language in a few months, it will take you much longer to master your first programming language.
+If you are a full-time student or have a day job, it is more effective to commit to 30 minutes of focused practice a day than to try to learn everything in one month.
 
 The lessons cover all programming terminology, concepts and Python best practices.
 We present code examples and provide coding exercises with solutions. Your goal would be to understand every line of code in the examples.
