@@ -167,7 +167,7 @@ zstd                          1.5.6            h8880b57_0
 <br><br>
 -->
 
-Missing from this list is JupyterLab. Enter `pip install jupyterlab` at the prompt.
+Missing from this list is JupyterLab. Enter `pip install jupyterlab` in Anaconda Prompt.
 This command downloads and installs JupyterLab and other packages it depends on from the Python Package Index. Another way to install JupyterLab is to use the command `conda install -c conda-forge jupyterlab`, which downloads and installs JupyterLab from the [Conda Forge](https://conda-forge.org/) repository.
 
 To open JupyterLab, enter `jupyter-lab` (note the hyphen) in Anaconda Prompt. This will open JupyterLab in your default web browser.
