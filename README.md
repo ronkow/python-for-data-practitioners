@@ -34,15 +34,15 @@ Although installing Python is easy this way and IDLE is easy to use, we do not r
 
 ### INSTALLING MINICONDA AND JUPYTERLAB
 For a much better IDE and learning experience, we recommend using [JupyterLab](https://jupyter.org), an IDE that runs in a web browser. We also recommend installing
-[conda](https://docs.conda.io/en/latest/) for managing virtual environments and [pip](https://pypi.org/project/pip/) for installing other Python packages.
+[conda](https://docs.conda.io/en/latest/) to be used for managing virtual environments and [pip](https://pypi.org/project/pip/) to be used for installing other Python packages.
 
 The two-step installation process will be as follows:
-- Download and install [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main#should-i-install-miniconda-or-anaconda-distribution). By installing Miniconda, you will install the latest version of Python (version 3.13.5 at the time of writing this guide), conda and pip at the same time.
+- Download and install [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main#should-i-install-miniconda-or-anaconda-distribution). Miniconda is one of two Python distributions (a collection of Python packages) from [Anaconda](https://www.anaconda.com/). By installing Miniconda, you will install the latest version of Python (version 3.13.5 at the time of writing this guide), conda, pip and a number of other packages.
 - Install JupyterLab using pip.
 
 At this point, you may be wondering: What is a [virtual environment](https://docs.python.org/3/library/venv.html)? What is a [Python packages](https://pypi.org/)? What is Miniconda? Let's first proceed with our installation. We will explain these terms along the way.
 
-When Miniconda is installed, you will see the following two applications (screenshot from Windows 10):
+When installation of Miniconda is complete, you will see the following two applications (screenshot from Windows 10):
 
 <kbd>
 <img src="./images/miniconda3.png" width="260" alt="Python IDLE">
@@ -56,7 +56,13 @@ Open Anaconda Prompt, which is a command line application. It shows the name of 
 </kbd>
 <br><br>
 
-This `conda list` command lists all the Python packages installed in the default virtual environment named `base`. The complete list is as follows:
+This `conda list` command lists all the Python packages installed within the default virtual environment named `base`. A virtual environment is an isolated workspace for a software project.
+
+A Python package is a collection of Python code organized in a standard way. Python packages extend Python's functionality. For example, the [scikit-learn](https://pypi.org/project/scikit-learn/) package is used for creating machine learning models. All packages can be found in [Python Package Index](https://pypi.org/project/jupyterlab/), the official repository for Python packages. 
+
+For most of our lessons, we will be writing programs using the `base` virtual environment. We will learn to create new virtual environments when we learn to use packages like [pandas](https://pypi.org/project/pandas/) not found in the `base` virtual environment. 
+
+Within the `base` virtual environment, the complete list of installed packages is shown below, including Python (version 3.13.5), conda, pip and all other packages that Python, conda and pip depend on and also a small number of other useful packages (according to the [Anaconda guide](https://www.anaconda.com/docs/getting-started/miniconda/main))
 
 ```
 Name                        Version          Build               Channel
@@ -150,27 +156,12 @@ zstandard                     0.23.0           py313h4fc1ca9_1
 zstd                          1.5.6            h8880b57_0
 ```
 
-
 Missing from this list is JupyterLab, which we need to install. Enter `pip install jupyterlab` at the prompt:
 
 <kbd>
 <img src="./images/pip_install_jupyterlab.png" width="500" alt="Python IDLE">
 </kbd>
 <br><br>
-
-
-### VIRTUAL ENVIRONMENT
-A virtual environment is an isolated workspace for a software project. Within a project's virtual environment, you install a specific version of Python and the [Python packages](https://pypi.org/) required for the project using either conda or [pip](https://pypi.org/project/pip/) 
-
-
-<!--For ease of installing JupyterLab and other [Python packages](https://pypi.org/) for your future projects--> 
-<!--download and install [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main#should-i-install-miniconda-or-anaconda-distribution). 
-Miniconda is one of two Python distributions (a collection of Python packages) from [Anaconda](https://www.anaconda.com/).-->
-
-<!--By installing Miniconda, you will install the latest version of Python (version 3.13.5 at the time of writing this guide) and [Conda](https://docs.conda.io/en/latest/), the environment and package manager application, at the same time. You will also install other packages that Python and Conda depend on (i.e. packages required for Python and Conda to work) and a small number of other useful packages (according to the [Anaconda guide](https://www.anaconda.com/docs/getting-started/miniconda/main)).-->
-
-
-
 
 This command downloads and installs JupyterLab (and other packages it depends on) from the [Python Package Index](https://pypi.org/project/jupyterlab/), a repository of all Python packages created by developers all over the world. Other options for installing JupyterLab is provided in [Python Package Index](https://pypi.org/project/jupyterlab/), including the command `conda install -c conda-forge jupyterlab`, which downloads and installs JupyterLab from the [Conda Forge](https://conda-forge.org/) repository.
 
