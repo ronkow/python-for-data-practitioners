@@ -1,7 +1,5 @@
 # Python for Data Science
 
-## INTRODUCTION
-
 This is a set of lessons in Python programming for people who have never written code in any programming language before.
 We do not assume any prior knowledge of programming terminology and concepts.
 The only prerequisite is to have some basic math knowledge (e.g. prime numbers, sets, functions).
@@ -19,7 +17,7 @@ After that, type (or modify, if you like) and run the code to build your muscle 
 
 To run Python code, you need to install the Python Interpreter (the software that checks and executes Python code). While it is possible to type your code in Notepad and run your code with just the Python Interpreter installed, it is much easier to type and run your code in an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment). IDEs are software that help programmers to manage software projects and write code efficiently.     
 
-Installing and setting up the Python Interpreter (which we will refer to as Python when it is clear that we are refering to the software, not the language) and a choosing an IDE for the first time is a tricky process because there are different ways you can install Python and there are many IDEs that support Python. 
+Installing and setting up the Python Interpreter (which we will refer to as Python when it is clear that we are referring to the software, not the language) and a choosing an IDE for the first time is a tricky process because there are different ways you can install Python and there are many IDEs that support Python. 
 
 You can install Python from the official Python website [https://www.python.org](https://www.python.org). This installation includes a basic interactive IDE called IDLE (Integrated Development and Learning Environment):
 
