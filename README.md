@@ -18,7 +18,8 @@ After that, type (or modify, if you like) and run the code to build your muscle 
 
 You type and run code in an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment). There are many IDEs for Python. There are also different ways to install Python (or, to be precise, the Python Interpreter, which is the software that checks and executes Python code). Installing and setting up your programming environment for the first time can be a tricky process. One option is to install it from the official [Python website](https://www.python.org/), which includes a basic interactive IDE called IDLE (Integrated Development and Learning Environment):
 
-![Python IDLE](images/python_idle.png)
+<!--![Python IDLE](./images/python_idle.png)-->
+<img src="./images/python_idle.png" width="200">
 
 
 However, we do not recommend this option for beginners because the setup can be tricky.
