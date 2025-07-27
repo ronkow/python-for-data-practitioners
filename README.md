@@ -56,7 +56,7 @@ Open Anaconda Prompt, a command line application. It shows the name of the defau
 </kbd>
 <br><br>
 
-The `conda list` command lists all the Python packages installed within the default `base` virtual environment.   
+The `conda list` command lists all the Python packages installed within the `base` virtual environment.   
 
 A Python package is a collection of Python code. Python packages extend Python's functionality. For example, the [scikit-learn](https://pypi.org/project/scikit-learn/) package is used for creating machine learning models. All packages can be found in [Python Package Index](https://pypi.org/project/jupyterlab/), the official repository for Python packages.  
 
@@ -64,7 +64,7 @@ A virtual environment is an isolated workspace for a software project. In other 
 
 For most of our lessons, we will be writing programs using the `base` virtual environment. We will learn to create a new virtual environment when we learn to use packages like [pandas](https://pypi.org/project/pandas/) not found in the `base` virtual environment.
 
-Within the `base` virtual environment, the installed version of Python (3.13.5) and the complete list of installed packages is shown below. Installed packages include conda, pip, other packages that Python, conda and pip depend on and also a small number of other useful packages (according to the [Anaconda guide](https://www.anaconda.com/docs/getting-started/miniconda/main))
+Within the `base` virtual environment, the installed version of Python (3.13.5) and the complete list of installed packages is shown below. Other than conda and pip, installed packages include packages that Python, conda and pip depend on and also a small number of other useful packages (according to the [Anaconda guide](https://www.anaconda.com/docs/getting-started/miniconda/main))
 
 ```
 Name                        Version          Build               Channel
