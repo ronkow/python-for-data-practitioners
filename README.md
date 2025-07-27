@@ -69,7 +69,7 @@ For most of our lessons, we will be writing programs using the `base` virtual en
 Within the `base` virtual environment, the installed version of Python (3.13.5) and the complete list of installed packages is shown below. Other than conda and pip, installed packages include packages that Python, conda and pip depend on and also a small number of other useful packages (according to the [Anaconda guide](https://www.anaconda.com/docs/getting-started/miniconda/main))
 
 ```
-Name                        Version          Build               Channel
+Name                          Version          Build               Channel
 anaconda-anon-usage           0.7.1            py313hfc23b7f_100 
 anaconda_powershell_prompt    1.1.0            haa95532_1  
 anaconda_prompt               1.1.0            haa95532_1
