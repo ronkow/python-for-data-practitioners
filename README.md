@@ -58,10 +58,10 @@ Open Anaconda Prompt, which is a command line application. It shows the name of 
 
 This `conda list` command lists all the Python packages installed in the default virtual environment named `base`. The complete list is as follows:
 
-`# Name                        Version          Build               Channel`   
-`anaconda-anon-usage           0.7.1            py313hfc23b7f_100`  
-`anaconda_powershell_prompt    1.1.0            haa95532_1`  
-```anaconda_prompt               1.1.0            haa95532_1
+```# Name                        Version          Build               Channel
+anaconda-anon-usage           0.7.1            py313hfc23b7f_100 
+anaconda_powershell_prompt    1.1.0            haa95532_1  
+anaconda_prompt               1.1.0            haa95532_1
 annotated-types               0.6.0            py313haa95532_0
 archspec                      0.2.3            pyhd3eb1b0_0
 boltons                       25.0.0           py313haa95532_0
@@ -146,7 +146,8 @@ xz                            5.6.4            h4754444_1
 yaml-cpp                      0.8.0            hd77b12b_1
 zlib                          1.2.13           h8cc25b3_1
 zstandard                     0.23.0           py313h4fc1ca9_1
-zstd                          1.5.6            h8880b57_0```
+zstd                          1.5.6            h8880b57_0
+```
 
 
 Missing from this list is JupyterLab, which we need to install. Enter `pip install jupyterlab` at the prompt:
