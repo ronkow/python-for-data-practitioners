@@ -40,7 +40,7 @@ The two-step installation process will be as follows:
 - Download and install [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main#should-i-install-miniconda-or-anaconda-distribution). Miniconda is one of two Python distributions (a curated collection of Python packages) from [Anaconda](https://www.anaconda.com/). By installing Miniconda, you will install the latest version of Python (version 3.13.5 at the time of writing this guide), conda, pip and a number of other packages.
 - Install JupyterLab using pip.
 
-At this point, you may be wondering: What is a [virtual environment](https://docs.python.org/3/library/venv.html)? What is a [Python package](https://docs.python.org/3/tutorial/modules.html#packages)? What is Miniconda? Let's first proceed with our installation. We will explain these terms along the way.
+At this point, you may be wondering: What is a [virtual environment](https://docs.python.org/3/library/venv.html)? What is a [Python package](https://docs.python.org/3/tutorial/modules.html#packages)? Let's first proceed with our installation. We will explain these terms along the way.
 
 When installation of Miniconda is complete, you will see the following two applications (screenshot from Windows 10):
 
@@ -60,7 +60,7 @@ The `conda list` command lists all the Python packages installed within the `bas
 
 A Python package is a collection of Python code. Python packages extend Python's functionality. For example, the [scikit-learn](https://pypi.org/project/scikit-learn/) package is used for creating machine learning models. All packages can be found in the Python Package Index [https://pypi.org](https://pypi.org/), the official repository for Python packages.  
 
-A virtual environment is an isolated workspace for a software project. In other words, a directory is created for the project and all project files, including files for installed packages, will reside within this directory.   
+A virtual environment is an isolated workspace for a software project. In other words, a directory is created for the project, and all project files, including files for installed packages, will reside within this directory.   
 
 For most of our lessons, we will be writing programs using the `base` virtual environment. We will learn to create a new virtual environment when we learn to use packages like [pandas](https://pypi.org/project/pandas/) not found in the `base` virtual environment.
 
