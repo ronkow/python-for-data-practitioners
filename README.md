@@ -5,7 +5,7 @@ We do not assume any prior knowledge of programming terminology and concepts.
 The only prerequisite is to have some basic math knowledge (e.g. prime numbers, sets, functions).
  
 We encourage you to learn programming like you would learn a foreign language - incrementally through regular reading, writing and short practices.
-Most people take years to be fluent in a foreign language. While programming is arguably easier, it will take many months of consistent work to be fluent in your first programming language.
+It takes years to fluently speak and write in a foreign language. While programming is arguably easier, it will take many months of consistent work to master your first programming language.
 If you are a full-time student or have a day job, it is more effective to commit to 30 minutes of focused practice a day than to try to learn everything in one month.
 
 The lessons cover all programming terminology, concepts and Python best practices.
