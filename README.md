@@ -1,5 +1,7 @@
 # Python for Data Science
 
+## INTRODUCTION
+
 Welcome!
 
 This course in Python programming is for people who have never written code in any programming language before.
