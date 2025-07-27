@@ -28,7 +28,7 @@ You type and run code in an [Integrated Development Environment (IDE)](https://e
 For a much better IDE and learning experience, we recommend using the [JupyterLab](https://jupyter.org) IDE. To install JupyterLab and for ease of environment management (e.g. installing [Python packages](https://pypi.org/) for your future projects), install the [Miniconda distribution](https://www.anaconda.com/docs/getting-started/miniconda/main#should-i-install-miniconda-or-anaconda-distribution) from [Conda](https://docs.conda.io/en/latest/). Once installed, you will see the following if you use Windows 10:
 
 <kbd>
-<img src="./images/miniconda3.png" width="400" alt="Python IDLE">
+<img src="./images/miniconda3.png" width="200" alt="Python IDLE">
 </kbd>
 
 This distribution contains the Python Interpreter and  
