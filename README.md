@@ -160,16 +160,19 @@ zstandard                     0.23.0           py313h4fc1ca9_1
 zstd                          1.5.6            h8880b57_0
 ```
 
-Missing from this list is JupyterLab, which we need to install. Enter `pip install jupyterlab` at the prompt:
 
+
+<!--
 <kbd>
 <img src="./images/pip_install_jupyterlab.png" width="500" alt="Python IDLE">
 </kbd>
 <br><br>
+-->
 
+Missing from this list is JupyterLab, which we need to install. Enter `pip install jupyterlab` at the prompt.
 This command downloads and installs JupyterLab and other packages it depends on from the Python Package Index. Other options for installing JupyterLab include the command `conda install -c conda-forge jupyterlab`, which downloads and installs JupyterLab from the [Conda Forge](https://conda-forge.org/) repository.
 
-To open JupyterLab, enter `jupyter-lab` (note the hyphen) in Anaconda Prompt. This will open JupyterLab in your default web browser:
+To open JupyterLab, enter `jupyter-lab` (note the hyphen) in Anaconda Prompt. This will open JupyterLab in your default web browser.
 
 <kbd>
 <img src="./images/jupyterlab_default.png" width="600" alt="Python IDLE">
