@@ -6,7 +6,7 @@ The only prerequisite is to have some basic math knowledge (e.g. prime numbers, 
  
 We encourage you to learn programming like you would learn a foreign language - incrementally through regular reading, writing and short practices.
 It takes years to fluently speak and write in a foreign language. While programming is arguably easier, it will take many months of consistent work to master your first programming language.
-If you are a full-time student or have a day job, it is more effective to commit to 30 minutes of daily practice over a year than to try to learn everything in one month.
+If you are a full-time student or have a day job, it is more effective to commit to 30 minutes of daily practice over one year than to try to learn everything in one month.
 
 The lessons cover all programming terminology, concepts and Python best practices.
 We provide code examples, explanations and coding exercises with solutions.
