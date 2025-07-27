@@ -175,7 +175,7 @@ To open JupyterLab, enter `jupyter-lab` (note the hyphen) in Anaconda Prompt. Th
 </kbd>
 <br><br>
 
-To type and run your code interactively, use Notebooks. Select `File` -> `New` -> `Notebook` to open a new Notebook, then select the default kernel option (Python 3 (ipykernel)):
+To type and run your code interactively, use Notebooks. Select `File` -> `New` -> `Notebook` to open a new Notebook, then select the default kernel option Python 3 (ipykernel):
 
 <kbd>
 <img src="./images/jupyterlab_notebook_select.png" width="600" alt="Python IDLE">
