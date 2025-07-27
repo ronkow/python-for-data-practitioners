@@ -21,7 +21,7 @@ To run Python code, you need to install the Python Interpreter (the software tha
 
 Installing and setting up the Python Interpreter (which we will refer to as Python when it is clear that we are refering to the software, not the language) and a choosing an IDE for the first time is a tricky process because there are different ways you can install Python and there are many IDEs that support Python. 
 
-You can install Python from the official [Python website](https://www.python.org/). This installation includes a basic interactive IDE called IDLE (Integrated Development and Learning Environment):
+You can install Python from the official Python website [https://www.python.org/](https://www.python.org). This installation includes a basic interactive IDE called IDLE (Integrated Development and Learning Environment):
 
 <!--![Python IDLE](./images/python_idle.png)-->
 <!--<img src="./images/python_idle.png" width="800" alt="Python IDLE" style="border: 5px solid black;"> DOES NOT WORK-->
@@ -33,7 +33,7 @@ You can install Python from the official [Python website](https://www.python.org
 Although installing Python is easy this way and IDLE is easy to use, we do not recommend this option for beginners. 
 
 ### INSTALLING MINICONDA AND JUPYTERLAB
-For a much better IDE and learning experience, we recommend using [JupyterLab](https://jupyter.org), an IDE that runs in a web browser. We also recommend installing
+For a much better IDE and learning experience, we recommend using [JupyterLab](https://pypi.org/project/jupyterlab/), an IDE that runs in a web browser. We also recommend installing
 [conda](https://docs.conda.io/en/latest/) for managing virtual environments and [pip](https://pypi.org/project/pip/) for installing other Python packages.
 
 <!-- (https://docs.conda.io/en/latest/) -->
@@ -42,7 +42,7 @@ The two-step installation process will be as follows:
 - Download and install [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main#should-i-install-miniconda-or-anaconda-distribution). Miniconda is one of two Python distributions (a curated collection of Python packages) from [Anaconda](https://www.anaconda.com/). By installing Miniconda, you will install the latest version of Python (version 3.13.5 at the time of writing this guide), conda, pip and a number of other packages.
 - Install JupyterLab using pip.
 
-At this point, you may be wondering: What is a [virtual environment](https://docs.python.org/3/library/venv.html)? What is a [Python package](https://pypi.org/)? What is Miniconda? Let's first proceed with our installation. We will explain these terms along the way.
+At this point, you may be wondering: What is a [virtual environment](https://docs.python.org/3/library/venv.html)? What is a [Python package](https://docs.python.org/3/tutorial/modules.html#packages)? What is Miniconda? Let's first proceed with our installation. We will explain these terms along the way.
 
 When installation of Miniconda is complete, you will see the following two applications (screenshot from Windows 10):
 
@@ -60,7 +60,7 @@ Open Anaconda Prompt, a command line application. It shows the name of the defau
 
 The `conda list` command lists all the Python packages installed within the `base` virtual environment.   
 
-A Python package is a collection of Python code. Python packages extend Python's functionality. For example, the [scikit-learn](https://pypi.org/project/scikit-learn/) package is used for creating machine learning models. All packages can be found in the [Python Package Index](https://pypi.org/project/jupyterlab/), the official repository for Python packages.  
+A Python package is a collection of Python code. Python packages extend Python's functionality. For example, the [scikit-learn](https://pypi.org/project/scikit-learn/) package is used for creating machine learning models. All packages can be found in the [Python Package Index][https://pypi.org](https://pypi.org/), the official repository for Python packages.  
 
 A virtual environment is an isolated workspace for a software project. In other words, a directory is created for the project and all project files, including files for installed packages, will reside within this directory.   
 
@@ -186,7 +186,7 @@ To type and run your code interactively, use Notebooks. Select `File` -> `New` -
 </kbd>
 <br><br>
 
-In the first cell, enter your code and click on the Run button (or use the keyboard shortcut `Shift` `Enter`):
+In any cell, enter your code and click on the Run button (or use the keyboard shortcut `Shift` `Enter`):
 
 <kbd>
 <img src="./images/jupyterlab_notebook_hello.png" width="600" alt="Python IDLE">
