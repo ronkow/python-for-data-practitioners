@@ -58,7 +58,7 @@ Open Anaconda Prompt, which is a command line application. It shows the name of 
 
 This `conda list` command lists all the Python packages installed in the default virtual environment named `base`. The complete list is as follows:
 
-`# Name                        Version          Build               Channel`
+`# Name                        Version          Build               Channel`   
 `anaconda-anon-usage           0.7.1            py313hfc23b7f_100`  
 `anaconda_powershell_prompt    1.1.0            haa95532_1`  
 anaconda_prompt               1.1.0            haa95532_1
