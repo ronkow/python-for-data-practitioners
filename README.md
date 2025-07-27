@@ -25,10 +25,18 @@ You type and run code in an [Integrated Development Environment (IDE)](https://e
 </kbd>
 <br><br>
 
-For a much better IDE and learning experience, we recommend using the [JupyterLab](https://jupyter.org) IDE. To install JupyterLab and for ease of environment management (e.g. installing [Python packages](https://pypi.org/) for your future projects), install the [Miniconda distribution](https://www.anaconda.com/docs/getting-started/miniconda/main#should-i-install-miniconda-or-anaconda-distribution) from [Conda](https://docs.conda.io/en/latest/). Once installed, you will see the following if you use Windows 10:
+For a much better IDE and learning experience, we recommend using the [JupyterLab](https://jupyter.org) IDE. For ease of installing JupyterLab and other [Python packages](https://pypi.org/) for your future projects, install the [Miniconda distribution](https://www.anaconda.com/docs/getting-started/miniconda/main#should-i-install-miniconda-or-anaconda-distribution) from [Conda](https://docs.conda.io/en/latest/). Once installed, you will see the following applications (screenshot from Windows 10):
 
 <kbd>
-<img src="./images/miniconda3.png" width="200" alt="Python IDLE">
+<img src="./images/miniconda3.png" width="260" alt="Python IDLE">
 </kbd>
+<br><br>
 
-This distribution contains the Python Interpreter and  
+Open the Anaconda Prompt, which is a command line application for managing your installations and project environments. It shows the name of the default environment, which is `base`. Enter `conda list` at the command line prompt:
+
+<kbd>
+<img src="./images/conda_list.png" width="300" alt="Python IDLE">
+</kbd>
+<br><br>
+
+This command lists all the software installed in the base environment, including `conda`, the environment manager application, and `python`, the Python Interpreter.
