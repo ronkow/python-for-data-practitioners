@@ -25,7 +25,7 @@ Given the many choices of IDEs for Python, installing and setting up your progra
 <!--![Python IDLE](./images/python_idle.png)-->
 <!--<img src="./images/python_idle.png" width="800" alt="Python IDLE" style="border: 5px solid black;"> DOES NOT WORK-->
 <kbd>
-<img src="./images/python_idle.png" width="800" alt="Python IDLE">
+<img src="./images/python_idle.png" width="700" alt="Python IDLE">
 </kbd>
 <br><br>
 
@@ -59,14 +59,14 @@ This command downloads and installs JupyterLab (and other packages it depends on
 To type and run your code interactively, use Notebooks. Select `File` > `Notebook` to open a new Notebook, then select the default option (Python 3):
 
 <kbd>
-<img src="./images/jupyterlab_notebook_select.png" width="500" alt="Python IDLE">
+<img src="./images/jupyterlab_notebook_select.png" width="600" alt="Python IDLE">
 </kbd>
 <br><br>
 
 In the first cell, enter your code and click on the Run button (or use the keyboard shortcut `Shift` `Enter`):
 
 <kbd>
-<img src="./images/jupyterlab_notebook_hello.png" width="500" alt="Python IDLE">
+<img src="./images/jupyterlab_notebook_hello.png" width="600" alt="Python IDLE">
 </kbd>
 <br><br>
 
