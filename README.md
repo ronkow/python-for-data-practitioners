@@ -3,23 +3,23 @@
 ## INTRODUCTION
 
 This is a set of lessons in Python programming for people who have never written code in any programming language before.
-We do not assume any prior knowledge of programming terminology and concepts (not specific to Python).
+We do not assume any prior knowledge of programming terminology and concepts.
 The only prerequisite is to have some basic math knowledge (e.g. prime numbers, sets, functions).
  
-Learn programming like you would learn a foreign language - incrementally through regular reading, writing and short practices.
-For most people, it takes years to be fluent in a foreign language. While programming is arguably easier, it will take months of consistent work to be fluent in your first programming language.
+We encourage you to learn programming like you would learn a foreign language - incrementally through regular reading, writing and short practices.
+Most people take years to be fluent in a foreign language. While programming is arguably easier, it will take many months of consistent work to be fluent in your first programming language.
 If you are a full-time student or have a day job, it is more effective to commit to 30 minutes of focused practice a day than to try to learn everything in one month.
 
 The lessons cover all programming terminology, concepts and Python best practices.
-We present code examples, explanations and provide coding exercises with solutions.
+We provide code examples, explanations and coding exercises with solutions.
 You need to study code patterns and understand every line of code in the examples.
 After that, type (or modify, if you like) and run the code to build your muscle memory.    
 
 ### HOW DO I RUN PYTHON CODE?
 
-To run Python code, you need to install the Python Interpreter, the software that checks and executes Python code. While it is possible to type and run Python code with just the Python Interpreter installed, it is much easier to write and run your code in an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment). IDEs are software that help developers to manage software projects and write code efficiently.     
+To run Python code, you need to install the Python Interpreter, the software that checks and executes Python code. While it is possible to type your code in Notepad and run your code with just the Python Interpreter installed, it is much easier to type and run your code in an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment). IDEs are software that help programmers to manage software projects and write code efficiently.     
 
-Given the different ways to install the Python Interpreter (which we will refer to as Python when it is clear that we are refering to the software, not the language) and the many choices of IDEs that support Python, installing and setting up Python and a suitable IDE for the first time is a tricky process. 
+Given the different ways you can install the Python Interpreter (which we will refer to as Python when it is clear that we are refering to the software, not the language) and the many choices of IDEs that support Python, installing and setting up Python and a suitable IDE for the first time is a tricky process. 
 
 You can install Python from the official [Python website](https://www.python.org/). This installation includes a basic interactive IDE called IDLE (Integrated Development and Learning Environment):
 
@@ -34,13 +34,13 @@ Although installing Python is easy this way and IDLE is easy to use, we do not r
 
 ### INSTALLING MINICONDA AND JUPYTERLAB
 For a much better IDE and learning experience, we recommend using [JupyterLab](https://jupyter.org), an IDE that runs in a web browser. We also recommend installing
-[conda](https://docs.conda.io/en/latest/) to be used for managing virtual environments and [pip](https://pypi.org/project/pip/) to be used for installing other Python packages.
+[conda](https://docs.conda.io/en/latest/) for managing virtual environments and [pip](https://pypi.org/project/pip/) for installing other Python packages.
 
 The two-step installation process will be as follows:
 - Download and install [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main#should-i-install-miniconda-or-anaconda-distribution). Miniconda is one of two Python distributions (a collection of Python packages) from [Anaconda](https://www.anaconda.com/). By installing Miniconda, you will install the latest version of Python (version 3.13.5 at the time of writing this guide), conda, pip and a number of other packages.
 - Install JupyterLab using pip.
 
-At this point, you may be wondering: What is a [virtual environment](https://docs.python.org/3/library/venv.html)? What is a [Python packages](https://pypi.org/)? What is Miniconda? Let's first proceed with our installation. We will explain these terms along the way.
+At this point, you may be wondering: What is a [virtual environment](https://docs.python.org/3/library/venv.html)? What is a [Python package](https://pypi.org/)? What is Miniconda? Let's first proceed with our installation. We will explain these terms along the way.
 
 When installation of Miniconda is complete, you will see the following two applications (screenshot from Windows 10):
 
@@ -49,20 +49,22 @@ When installation of Miniconda is complete, you will see the following two appli
 </kbd>
 <br><br>
 
-Open Anaconda Prompt, which is a command line application. It shows the name of the default environment, which is `base`. Enter `conda list` at the prompt:
+Open Anaconda Prompt, a command line application. It shows the name of the default virtual environment, which is `base`. Enter `conda list` at the prompt:
 
 <kbd>
 <img src="./images/conda_list.png" width="500" alt="Python IDLE">
 </kbd>
 <br><br>
 
-This `conda list` command lists all the Python packages installed within the default virtual environment named `base`. A virtual environment is an isolated workspace for a software project.
+This `conda list` command lists all the Python packages installed within the default `base` virtual environment.  
 
-A Python package is a collection of Python code organized in a standard way. Python packages extend Python's functionality. For example, the [scikit-learn](https://pypi.org/project/scikit-learn/) package is used for creating machine learning models. All packages can be found in [Python Package Index](https://pypi.org/project/jupyterlab/), the official repository for Python packages. 
+A virtual environment is an isolated workspace for a software project.
 
-For most of our lessons, we will be writing programs using the `base` virtual environment. We will learn to create new virtual environments when we learn to use packages like [pandas](https://pypi.org/project/pandas/) not found in the `base` virtual environment. 
+A Python package is a collection of Python code. Python packages extend Python's functionality. For example, the [scikit-learn](https://pypi.org/project/scikit-learn/) package is used for creating machine learning models. All packages can be found in [Python Package Index](https://pypi.org/project/jupyterlab/), the official repository for Python packages. 
 
-Within the `base` virtual environment, the complete list of installed packages is shown below, including Python (version 3.13.5), conda, pip and all other packages that Python, conda and pip depend on and also a small number of other useful packages (according to the [Anaconda guide](https://www.anaconda.com/docs/getting-started/miniconda/main))
+For most of our lessons, we will be writing programs using the `base` virtual environment. We will learn to create a new virtual environment when we learn to use packages like [pandas](https://pypi.org/project/pandas/) not found in the `base` virtual environment.
+
+Within the `base` virtual environment, the installed version of Python (3.13.5) and the complete list of installed packages is shown below. Installed packages include conda, pip, other packages that Python, conda and pip depend on and also a small number of other useful packages (according to the [Anaconda guide](https://www.anaconda.com/docs/getting-started/miniconda/main))
 
 ```
 Name                        Version          Build               Channel
