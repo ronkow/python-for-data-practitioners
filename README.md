@@ -24,6 +24,7 @@ You type and run code in an [Integrated Development Environment (IDE)](https://e
 <img src="./images/python_idle.png" width="800" alt="Python IDLE">
 </kbd>
 <br><br>
+
 For a much easier setup, a better IDE and ease of environment management (i.e. installing [Python packages](https://pypi.org/) in future), we do not recommend installing Python from the official website. Instead, we recommend downloading and installing the [Miniconda distribution](https://www.anaconda.com/docs/getting-started/miniconda/main#should-i-install-miniconda-or-anaconda-distribution) from [Conda](https://docs.conda.io/en/latest/). 
 
 This distribution contains the Python Interpreter and the [Jupyter-Lab](https://jupyter.org) IDE. 
