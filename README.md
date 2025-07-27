@@ -16,7 +16,7 @@ After that, type (or modify, if you like) and run the code to build your muscle 
 
 ### WHERE DO I RUN PYTHON CODE?
 
-You type and run code in an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment). In an IDE, you can edit and run your code, create project environments, and create directories to manage your project code. In short, IDEs help developers to manage complex software projects and write code efficiently.     
+You type and run code in an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment). IDEs are software that help developers to manage software projects and write code efficiently.     
 
 Given the many choices of IDEs for Python, installing and setting up your programming environment for the first time is a tricky process. There are also different ways to install Python (or, to be precise, the Python Interpreter, which is the software that checks and executes Python code). One option (which we do not recommend) is to install Python from the official [Python website](https://www.python.org/). This installation includes a basic interactive IDE called IDLE (Integrated Development and Learning Environment):
 
@@ -26,6 +26,8 @@ Given the many choices of IDEs for Python, installing and setting up your progra
 <img src="./images/python_idle.png" width="800" alt="Python IDLE">
 </kbd>
 <br><br>
+
+### INSTALLING MINICONDA AND JUPYTERLAB
 
 For a much better IDE and learning experience, we recommend using the [JupyterLab](https://jupyter.org) IDE. For ease of installing JupyterLab and other [Python packages](https://pypi.org/) for your future projects, download and install [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main#should-i-install-miniconda-or-anaconda-distribution). Miniconda is one of two Python distributions (a collection of Python packages) from [Anaconda](https://www.anaconda.com/). By installing Miniconda, you will install the latest version of Python (version 3.13.5 at the time of writing this Introduction) and [Conda](https://docs.conda.io/en/latest/), the environment and package manager application. You will also install other packages that Python and Conda depends on (i.e. packages required for Python and Conda to work) and a small number of other useful packages, according to the [Miniconda website](https://www.anaconda.com/docs/getting-started/miniconda/main).
 
