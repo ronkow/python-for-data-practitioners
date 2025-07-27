@@ -32,11 +32,12 @@ For a much better IDE and learning experience, we recommend using the [JupyterLa
 </kbd>
 <br><br>
 
-Open the Anaconda Prompt, which is a command line application for managing your installations and project environments. It shows the name of the default environment, which is `base`. Enter `conda list` at the command line prompt:
+Open the Anaconda Prompt, which is a command line application for managing your installations and project environments. It shows the name of the default environment, which is `base`. Enter `conda list` at the prompt:
 
 <kbd>
 <img src="./images/conda_list.png" width="500" alt="Python IDLE">
 </kbd>
 <br><br>
 
-This command lists all the software installed in the base environment, including `conda`, the environment manager application, and `python`, the Python Interpreter.
+This 'conda list' command lists all the Python packages installed in the `base` environment, including `conda`, the environment manager application, and `python`, the Python Interpreter. 
+Why are there so many packages? According to the [Miniconda website](https://www.anaconda.com/docs/getting-started/miniconda/main), these are packages `conda` and `python` depend on (i.e. packages that are required for `conda` and `python` to work), and a small number of other useful packages. Missing from this list is JupyterLab, which we need to install.
