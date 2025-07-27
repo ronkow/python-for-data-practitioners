@@ -21,7 +21,7 @@ To run Python code, you need to install the Python Interpreter (the software tha
 
 Installing and setting up the Python Interpreter (which we will refer to as Python when it is clear that we are refering to the software, not the language) and a choosing an IDE for the first time is a tricky process because there are different ways you can install Python and there are many IDEs that support Python. 
 
-You can install Python from the official Python website [https://www.python.org/](https://www.python.org). This installation includes a basic interactive IDE called IDLE (Integrated Development and Learning Environment):
+You can install Python from the official Python website [https://www.python.org](https://www.python.org). This installation includes a basic interactive IDE called IDLE (Integrated Development and Learning Environment):
 
 <!--![Python IDLE](./images/python_idle.png)-->
 <!--<img src="./images/python_idle.png" width="800" alt="Python IDLE" style="border: 5px solid black;"> DOES NOT WORK-->
@@ -60,7 +60,7 @@ Open Anaconda Prompt, a command line application. It shows the name of the defau
 
 The `conda list` command lists all the Python packages installed within the `base` virtual environment.   
 
-A Python package is a collection of Python code. Python packages extend Python's functionality. For example, the [scikit-learn](https://pypi.org/project/scikit-learn/) package is used for creating machine learning models. All packages can be found in the [Python Package Index][https://pypi.org](https://pypi.org/), the official repository for Python packages.  
+A Python package is a collection of Python code. Python packages extend Python's functionality. For example, the [scikit-learn](https://pypi.org/project/scikit-learn/) package is used for creating machine learning models. All packages can be found in the Python Package Index [https://pypi.org](https://pypi.org/), the official repository for Python packages.  
 
 A virtual environment is an isolated workspace for a software project. In other words, a directory is created for the project and all project files, including files for installed packages, will reside within this directory.   
 
