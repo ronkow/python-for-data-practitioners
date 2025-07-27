@@ -16,7 +16,9 @@ After that, type (or modify, if you like) and run the code to build your muscle 
 
 ### WHERE DO I RUN PYTHON CODE?
 
-You type and run code in an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment). Given the many choices of IDEs for Python, installing and setting up your programming environment for the first time can be a tricky process. There are also different ways to install Python (or, to be precise, the Python Interpreter, which is the software that checks and executes Python code). One option (which we do not recommend) is to install Python from the official [Python website](https://www.python.org/). This installation includes a basic interactive IDE called IDLE (Integrated Development and Learning Environment):
+You type and run code in an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment). In an IDE, you can edit and run your code, create project environments, and create directories to manage your project code. In short, IDEs help developers to manage complex software projects and write code efficiently.     
+
+Given the many choices of IDEs for Python, installing and setting up your programming environment for the first time is a tricky process. There are also different ways to install Python (or, to be precise, the Python Interpreter, which is the software that checks and executes Python code). One option (which we do not recommend) is to install Python from the official [Python website](https://www.python.org/). This installation includes a basic interactive IDE called IDLE (Integrated Development and Learning Environment):
 
 <!--![Python IDLE](./images/python_idle.png)-->
 <!--<img src="./images/python_idle.png" width="800" alt="Python IDLE" style="border: 5px solid black;"> DOES NOT WORK-->
@@ -25,19 +27,24 @@ You type and run code in an [Integrated Development Environment (IDE)](https://e
 </kbd>
 <br><br>
 
-For a much better IDE and learning experience, we recommend using the [JupyterLab](https://jupyter.org) IDE. For ease of installing JupyterLab and other [Python packages](https://pypi.org/) for your future projects, install the [Miniconda distribution](https://www.anaconda.com/docs/getting-started/miniconda/main#should-i-install-miniconda-or-anaconda-distribution) from [Conda](https://docs.conda.io/en/latest/). Once installed, you will see the following applications (screenshot from Windows 10):
+For a much better IDE and learning experience, we recommend using the [JupyterLab](https://jupyter.org) IDE. For ease of installing JupyterLab and other [Python packages](https://pypi.org/) for your future projects, download and install [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main#should-i-install-miniconda-or-anaconda-distribution). Miniconda is one of two Python distributions (a collection of Python packages) from [Anaconda](https://www.anaconda.com/). By installing Miniconda, you will install the latest version of Python (version 3.13.5 at the time of writing this Introduction) and [Conda](https://docs.conda.io/en/latest/), the environment and package manager application. You will also install other packages that Python and Conda depends on (i.e. packages required for Python and Conda to work) and a small number of other useful packages, according to the [Miniconda website](https://www.anaconda.com/docs/getting-started/miniconda/main).
+
+Once installed, you will see the following two applications (screenshot from Windows 10):
 
 <kbd>
 <img src="./images/miniconda3.png" width="260" alt="Python IDLE">
 </kbd>
 <br><br>
 
-Open the Anaconda Prompt, which is a command line application for managing your installations and project environments. It shows the name of the default environment, which is `base`. Enter `conda list` at the prompt:
+Open Anaconda Prompt, which is a command line application for managing your installations and environments. It shows the name of the default environment, which is `base`. Enter `conda list` at the prompt:
 
 <kbd>
 <img src="./images/conda_list.png" width="500" alt="Python IDLE">
 </kbd>
 <br><br>
 
-This 'conda list' command lists all the Python packages installed in the `base` environment, including `conda`, the environment manager application, and `python`, the Python Interpreter. 
-Why are there so many packages? According to the [Miniconda website](https://www.anaconda.com/docs/getting-started/miniconda/main), these are packages `conda` and `python` depend on (i.e. packages that are required for `conda` and `python` to work), and a small number of other useful packages. Missing from this list is JupyterLab, which we need to install.
+This 'conda list' command lists all the Python packages installed in the `base` environment.
+
+At this point, you may start to realise that installation and setup is a complex process. You may also start to wonder what exactly are packages and environments, and why there are so many packages installed by default.  
+
+Missing from this list is JupyterLab, which we need to install.
