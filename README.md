@@ -35,7 +35,7 @@ For a much better IDE and learning experience, we recommend using the [JupyterLa
 Open the Anaconda Prompt, which is a command line application for managing your installations and project environments. It shows the name of the default environment, which is `base`. Enter `conda list` at the command line prompt:
 
 <kbd>
-<img src="./images/conda_list.png" width="300" alt="Python IDLE">
+<img src="./images/conda_list.png" width="600" alt="Python IDLE">
 </kbd>
 <br><br>
 
