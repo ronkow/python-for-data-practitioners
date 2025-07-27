@@ -36,8 +36,10 @@ Although installing Python is easy this way and IDLE is easy to use, we do not r
 For a much better IDE and learning experience, we recommend using [JupyterLab](https://jupyter.org), an IDE that runs in a web browser. We also recommend installing
 [conda](https://docs.conda.io/en/latest/) for managing virtual environments and [pip](https://pypi.org/project/pip/) for installing other Python packages.
 
+<!-- (https://docs.conda.io/en/latest/) -->
+
 The two-step installation process will be as follows:
-- Download and install [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main#should-i-install-miniconda-or-anaconda-distribution). Miniconda is one of two Python distributions (a collection of Python packages) from [Anaconda](https://www.anaconda.com/). By installing Miniconda, you will install the latest version of Python (version 3.13.5 at the time of writing this guide), conda, pip and a number of other packages.
+- Download and install [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main#should-i-install-miniconda-or-anaconda-distribution). Miniconda is one of two Python distributions (a curated collection of Python packages) from [Anaconda](https://www.anaconda.com/). By installing Miniconda, you will install the latest version of Python (version 3.13.5 at the time of writing this guide), conda, pip and a number of other packages.
 - Install JupyterLab using pip.
 
 At this point, you may be wondering: What is a [virtual environment](https://docs.python.org/3/library/venv.html)? What is a [Python package](https://pypi.org/)? What is Miniconda? Let's first proceed with our installation. We will explain these terms along the way.
@@ -58,7 +60,7 @@ Open Anaconda Prompt, a command line application. It shows the name of the defau
 
 The `conda list` command lists all the Python packages installed within the `base` virtual environment.   
 
-A Python package is a collection of Python code. Python packages extend Python's functionality. For example, the [scikit-learn](https://pypi.org/project/scikit-learn/) package is used for creating machine learning models. All packages can be found in [Python Package Index](https://pypi.org/project/jupyterlab/), the official repository for Python packages.  
+A Python package is a collection of Python code. Python packages extend Python's functionality. For example, the [scikit-learn](https://pypi.org/project/scikit-learn/) package is used for creating machine learning models. All packages can be found in the [Python Package Index](https://pypi.org/project/jupyterlab/), the official repository for Python packages.  
 
 A virtual environment is an isolated workspace for a software project. In other words, a directory is created for the project and all project files, including files for installed packages, will reside within this directory.   
 
@@ -165,7 +167,14 @@ Missing from this list is JupyterLab, which we need to install. Enter `pip insta
 </kbd>
 <br><br>
 
-This command downloads and installs JupyterLab (and other packages it depends on) from the [https://pypi.org/project/jupyterlab/](https://pypi.org/project/jupyterlab/). Other options for installing JupyterLab include the command `conda install -c conda-forge jupyterlab`, which downloads and installs JupyterLab from the [Conda Forge](https://conda-forge.org/) repository.
+This command downloads and installs JupyterLab and other packages it depends on from the Python Package Index. Other options for installing JupyterLab include the command `conda install -c conda-forge jupyterlab`, which downloads and installs JupyterLab from the [Conda Forge](https://conda-forge.org/) repository.
+
+To open JupyterLab, enter `jupyter-lab` (note the hyphen) in Anaconda Prompt. This will open JupyterLab in your default web browser:
+
+<kbd>
+<img src="./images/jupyterlab_default.png" width="600" alt="Python IDLE">
+</kbd>
+<br><br>
 
 To type and run your code interactively, use Notebooks. Select `File` > `Notebook` to open a new Notebook, then select the default option (Python 3):
 
