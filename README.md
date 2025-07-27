@@ -1,4 +1,4 @@
-# python-lessons
+# Python for Data Science
 
 Welcome!
 
