@@ -66,7 +66,7 @@ A virtual environment is an isolated workspace for a software project. In other 
 
 For most of our lessons, we will be writing programs using the `base` virtual environment. We will learn to create a new virtual environment when we learn to use packages like [pandas](https://pypi.org/project/pandas/) not found in the `base` virtual environment.
 
-Within the `base` virtual environment, the installed version of Python (3.13.5) and the complete list of installed packages is shown below. Other than conda and pip, installed packages include packages that Python, conda and pip depend on and also a small number of other useful packages (according to the [Anaconda guide](https://www.anaconda.com/docs/getting-started/miniconda/main))
+Within the `base` virtual environment, the installed version of Python (3.13.5) and the complete list of installed packages is shown below. Other than conda and pip, installed packages include packages that Python, conda and pip depend on and a small number of other useful packages.
 
 ```
 Name                          Version          Build               Channel
