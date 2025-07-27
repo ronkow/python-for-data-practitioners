@@ -165,7 +165,7 @@ Missing from this list is JupyterLab, which we need to install. Enter `pip insta
 </kbd>
 <br><br>
 
-This command downloads and installs JupyterLab (and other packages it depends on) from the [Python Package Index](https://pypi.org/project/jupyterlab/), a repository of all Python packages created by developers all over the world. Other options for installing JupyterLab is provided in [Python Package Index](https://pypi.org/project/jupyterlab/), including the command `conda install -c conda-forge jupyterlab`, which downloads and installs JupyterLab from the [Conda Forge](https://conda-forge.org/) repository.
+This command downloads and installs JupyterLab (and other packages it depends on) from the [https://pypi.org/project/jupyterlab/](https://pypi.org/project/jupyterlab/). Other options for installing JupyterLab include the command `conda install -c conda-forge jupyterlab`, which downloads and installs JupyterLab from the [Conda Forge](https://conda-forge.org/) repository.
 
 To type and run your code interactively, use Notebooks. Select `File` > `Notebook` to open a new Notebook, then select the default option (Python 3):
 
