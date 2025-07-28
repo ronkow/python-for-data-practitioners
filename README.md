@@ -9,7 +9,7 @@ The lessons cover all programming terminology, concepts and Python best practice
 We provide code examples, explanations and coding exercises with solutions.
 You need to study code patterns and understand every line of code in the examples.
 After that, type (or modify, if you like) and run the code to build your muscle memory. 
-It is also often necessary to use the command line interface (e.g. Windows PowerShell, Command Prompt). 
+It is also often necessary to use a command line interface (e.g. Windows PowerShell, Command Prompt). 
 All commands will be explained for the benefit of those with little experience.
 
 We encourage you to learn programming like you would learn a foreign language - incrementally through regular speaking, reading and writing.
