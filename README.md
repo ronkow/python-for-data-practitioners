@@ -12,7 +12,7 @@ There are code examples, explanations and coding exercises with solutions.
 You need to study code patterns and understand every line of code in the examples.
 After that, type (or modify, if you like) and run the code to build your muscle memory. 
 It is also often necessary to use a command line interface (e.g. Windows PowerShell, Command Prompt). 
-All commands will be explained for the benefit of those with little experience.
+I will explain all commands for the benefit of those with little experience.
 
 I encourage you to learn programming like you would learn a foreign language - incrementally through regular speaking, reading and writing.
 It takes years to fluently speak and write in a foreign language. While programming is arguably easier, it will take many months of regular practice to master your first programming language.
