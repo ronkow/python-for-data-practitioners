@@ -13,52 +13,74 @@ We encourage you to learn programming like you would learn a foreign language - 
 It takes years to fluently speak and write in a foreign language. While programming is arguably easier, it will take many months of regular practice to master your first programming language.
 If you are a full-time student or have a day job, it is more effective to commit to 30 minutes of daily practice over one year than to try to learn everything in one month.
 
-  
+<!--![Python IDLE](./images/python_idle.png)-->
+<!--<img src="./images/python_idle.png" width="800" alt="Python IDLE" style="border: 5px solid black;"> DOES NOT WORK-->
 
 ### HOW DO I RUN PYTHON CODE?
 
-To run Python code, you need to install the Python Interpreter (we will refer to it as Python when it is clear that we are referring to the software, not the language) which checks and runs Python code. While it is possible to type your code in a text editor (e.g. Notepad in Windows) and run your code using a command line application (e.g. Windows PowerShell), it is much easier to type and run your code in an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment). IDEs are software that help programmers to manage software projects and write code efficiently.     
+To run Python code, you need to install the Python Interpreter (we will refer to it as Python when it is clear that we are referring to the software, not the language) which checks and runs Python code. 
 
-There are different ways to install Python and there are many IDEs that support Python. We will show you two installation options for Windows.
+There are two ways to run Python code:
+- Type and save your code as a Python module (a file saved with the `.py` extension) in a text editor (e.g. Notepad in Windows). Run the module in a command line application (e.g. Windows PowerShell, Command Prompt).
+- Type and run your code in an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment). IDEs are software that help programmers to manage software projects and write code efficiently.
 
-### OPTION 1: INSTALLING PYTHON FROM THE OFFICIAL WEBSITE
-You can download and install Python from the official Python website [https://www.python.org](https://www.python.org). On the Windows Installer, select `Add python.exe to PATH` so that you can run your code from any path on a command line.
+There are many IDEs that support Python. For beginners, we recommend using [JupyterLab](https://pypi.org/project/jupyterlab/) which runs in a web browser. The following section shows you the installation of Python and JupyterLab in Windows.  
+
+<!--There are different ways to install Python. We will show you two installation options for Windows.-->
+
+### INSTALLING PYTHON AND JUPYTERLAB
+
+In this tutorial, we will show you the following:
+- Download and run the Windows Installer from the official Python website at [https://www.python.org](https://www.python.org). This installation will install the latest version of Python, pip and a number of other packages.
+- Run a Python module in Command Prompt.
+- Install JupyterLab using pip in Command Prompt.
+
+First, run the Windows Installer. Remember to select `Add python.exe to PATH` on the Windows Installer so that you can run your code from any path on a command line. 
 
 <kbd>
 <img src="./images/python_install.png" width="500" alt="Python IDLE">
 </kbd>
 <br><br>
 
-This installs the following applications:
+This installation includes a simple IDE called IDLE (Integrated Development and Learning Environment), a command line application that works like IDLE, and the complete documentation:
 
 <kbd>
 <img src="./images/python_apps.png" width="240" alt="Python IDLE">
 </kbd>
 <br><br>
 
-
-<!--![Python IDLE](./images/python_idle.png)-->
-<!--<img src="./images/python_idle.png" width="800" alt="Python IDLE" style="border: 5px solid black;"> DOES NOT WORK-->
-
-This installation includes a basic interactive IDE called IDLE (Integrated Development and Learning Environment):
-
 <kbd>
 <img src="./images/python_idle.png" width="600" alt="Python IDLE">
 </kbd>
 <br><br>
 
-To run Python modules (code files saved with the `.py` extension) on a command line, type and save your code in a text editor (e.g `mymodule.py`) and run your code in Windows PowerShell or Command Prompt by entering the command `python mymodule.py`: 
+<kbd>
+<img src="./images/python_command_line.png" width="600" alt="Python IDLE">
+</kbd>
+<br><br>
+
+Next, test that you can access Python from Windows Powershell or Command Prompt by checking the versions of Python and pip. Enter `python --version` and `pip --version` at the prompt. 
+Next, type `print('Hello, world!')` in Notepad and save your code as a Python module (e.g `mymodule.py`). 
+Run your module by entering the command `python mymodule.py`: 
 
 <kbd>
 <img src="./images/command_prompt.png" width="400" alt="Python IDLE">
 </kbd>
 <br><br>
 
-Although installing Python is easy this way and IDLE is easy to use, we do not recommend this option for beginners. 
+Lastly, install JupyterLab by entering the command `pip install JupyterLab`. This command downloads and installs JupyterLab and other packages it depends on from the Python Package Index at [https://pypi.org](https://pypi.org/), the official repository for Python packages.
+When installation is complete, you see the names of all the packages installed. You can also get the list of installed packages by entering `pip list`.
 
-### OPTION 2: INSTALLING MINICONDA AND JUPYTERLAB
-For a much better IDE and learning experience, we recommend using [JupyterLab](https://pypi.org/project/jupyterlab/), an IDE that runs in a web browser. We also recommend installing
-[conda](https://docs.conda.io/en/latest/) for managing virtual environments and [pip](https://pypi.org/project/pip/) for installing other Python packages.
+<kbd>
+<img src="./images/jupyterlab_packages.png" width="400" alt="Python IDLE">
+</kbd>
+<br><br>
+
+
+
+### OPTION 2: INSTALLING MINICONDA
+ We also recommend installing
+[pip](https://pypi.org/project/pip/) for installing other Python packages and [conda](https://docs.conda.io/en/latest/) for managing virtual environments.
 
 <!-- (https://docs.conda.io/en/latest/) -->
 
