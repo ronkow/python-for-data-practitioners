@@ -113,7 +113,7 @@ To launch JupyterLab, enter `jupyter-lab` (note the hyphen) in Command Prompt. T
 </kbd>
 <br><br>
 
-To type and run your code interactively, use Notebooks. Click on the Notebook icon, or select `File` -> `New` -> `Notebook` to open a new Notebook, then select the default kernel option Python 3 (ipykernel):
+To type and run your code interactively, use Notebooks. Click on the Notebook icon on the Launcher tab, or select `File` -> `New` -> `Notebook` to open a new Notebook, then select the default kernel option Python 3 (ipykernel):
 
 <kbd>
 <img src="./images/jupyterlab_notebook_select.png" width="800" alt="JupyterLab Notebook">
