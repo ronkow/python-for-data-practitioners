@@ -21,10 +21,19 @@ To run Python code, you need to install the Python Interpreter (the software tha
 
 Installing the Python Interpreter (which we will refer to as Python when it is clear that we are referring to the software, not the language) and a choosing an IDE for the first time is a tricky process because there are different ways you can install Python and there are many IDEs that support Python. 
 
-You can install Python from the official Python website [https://www.python.org](https://www.python.org). This installation includes a basic interactive IDE called IDLE (Integrated Development and Learning Environment):
+You can download and install Python from the official Python website [https://www.python.org](https://www.python.org), which will give you the following applications (screenshot from Windows 10):
+
+<kbd>
+<img src="./images/python_apps.png" width="700" alt="Python IDLE">
+</kbd>
+<br><br>
+
 
 <!--![Python IDLE](./images/python_idle.png)-->
 <!--<img src="./images/python_idle.png" width="800" alt="Python IDLE" style="border: 5px solid black;"> DOES NOT WORK-->
+
+This installation includes a basic interactive IDE called IDLE (Integrated Development and Learning Environment):
+
 <kbd>
 <img src="./images/python_idle.png" width="700" alt="Python IDLE">
 </kbd>
@@ -44,7 +53,7 @@ The two-step installation process will be as follows:
 
 At this point, you may be wondering: What is a [virtual environment](https://docs.python.org/3/library/venv.html)? What is a [Python package](https://docs.python.org/3/tutorial/modules.html#packages)? Let's first proceed with our installation. We will explain these terms along the way.
 
-When installation of Miniconda is complete, you will see the following two applications (screenshot from Windows 10):
+When installation of Miniconda is complete, you will see the following applications (screenshot from Windows 10):
 
 <kbd>
 <img src="./images/miniconda3.png" width="260" alt="Python IDLE">
