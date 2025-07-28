@@ -60,7 +60,7 @@ This installation includes a simple IDE called IDLE (Integrated Development and 
 </kbd>
 <br><br>
 
-Test that you can access the Python Interpreter and pip from Windows Powershell or Command Prompt by checking the versions of Python and pip. Enter `python --version` and `pip --version`. Enter `pip list` to see the list of packages installed and their versions. pip is now the only package installed. As explained earlier, pip is used for installing and uninstalling other packages. When installing a package, pip identifies and installs any other packages that the package depends on. 
+Test that you can access the Python Interpreter and pip from Windows Powershell or Command Prompt by checking the versions of Python and pip. Enter `python --version` and `pip --version`. Enter `pip list` to see the list of packages installed and their versions. pip is now the only package installed. 
 
 <kbd>
 <img src="./images/command_prompt_version.png" width="700" alt="Command Prompt">
@@ -76,7 +76,7 @@ You can also type and run your code in Windows Powershell or Command Prompt. Ent
 
 
 Next, type `print('Hello, world!')` in Notepad and save your code as a Python module (e.g `mymodule.py`). 
-`cd` to the directory where you save your module and run it by entering the command `python mymodule.py`: 
+`cd` to the directory where you saved your module and run it by entering the command `python mymodule.py`: 
 
 <kbd>
 <img src="./images/command_prompt_module.png" width="700" alt="Command Prompt">
@@ -91,9 +91,12 @@ When installation is complete, you will see the names of all the packages instal
 </kbd>
 <br><br>
 
-At this point, you may be wondering: What is a [Python package](https://docs.python.org/3/tutorial/modules.html#packages)? Why are there so many packages installed?.
+At this point, you may be wondering: What is a [Python package](https://docs.python.org/3/tutorial/modules.html#packages)? Why are there so many packages installed? What does pip actually do?
 
-A Python package is a collection of Python code. Python packages extend Python's functionality. For example, the [scikit-learn](https://pypi.org/project/scikit-learn/) package is used for creating machine learning models. Anyone can develop and publish a package to PyPI. As you will learn later in this course
+A Python package is a collection of Python code. Python packages extend Python's functionality. For example, the [scikit-learn](https://pypi.org/project/scikit-learn/) package is used for creating machine learning models. Most publicly available packages are found in PyPI because anyone can develop and publish a package to PyPI. This is one of the reasons why Python is so widely used. When you develop your own packages, there will be functionalities that you may not need to implement yourself since there are publicly available packages for many functionalities that you can `import` into your code. 
+It is therefore not unusual to install many other packages along with the package you want to install.  
+
+pip is a package installer and manager. It is used for installing and uninstalling other packages. pip downloads and installs packages from PyPI by default, but it can also install packages from other sources, such as your local directories. When installing a package, pip identifies and installs any other packages that the package depends on, ensuring that the correct versions are downloaded and installed.
 
 To launch JupyterLab, enter `jupyter-lab` (note the hyphen) in Command Prompt. This will open JupyterLab in your default web browser.
 
