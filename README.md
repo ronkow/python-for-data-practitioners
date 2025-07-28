@@ -38,14 +38,14 @@ In this tutorial, we will show you the following:
 First, run the Windows Installer. Remember to select `Add python.exe to PATH` on the Windows Installer so that you can run your code from any path on a command line. 
 
 <kbd>
-<img src="./images/python_install.png" width="500" alt="Python IDLE">
+<img src="./images/python_install.png" width="500" alt="Python Windows Installer">
 </kbd>
 <br><br>
 
 This installation includes a simple IDE called IDLE (Integrated Development and Learning Environment), a command line application that works like IDLE, and the complete documentation:
 
 <kbd>
-<img src="./images/python_apps.png" width="240" alt="Python IDLE">
+<img src="./images/python_apps.png" width="240" alt="Python applications">
 </kbd>
 <br><br>
 
@@ -55,7 +55,7 @@ This installation includes a simple IDE called IDLE (Integrated Development and 
 <br><br>
 
 <kbd>
-<img src="./images/python_command_line.png" width="600" alt="Python IDLE">
+<img src="./images/python_command_line.png" width="600" alt="Python command line">
 </kbd>
 <br><br>
 
@@ -64,7 +64,7 @@ Next, type `print('Hello, world!')` in Notepad and save your code as a Python mo
 Run your module by entering the command `python mymodule.py`: 
 
 <kbd>
-<img src="./images/command_prompt.png" width="400" alt="Python IDLE">
+<img src="./images/command_prompt.png" width="400" alt="Command Prompt">
 </kbd>
 <br><br>
 
@@ -72,7 +72,7 @@ Lastly, install JupyterLab by entering the command `pip install JupyterLab`. Thi
 When installation is complete, you see the names of all the packages installed. You can also get the list of installed packages by entering `pip list`.
 
 <kbd>
-<img src="./images/jupyterlab_packages.png" width="400" alt="Python IDLE">
+<img src="./images/jupyterlab_packages.png" width="400" alt="JupyterLab dependent packages">
 </kbd>
 <br><br>
 
