@@ -87,7 +87,7 @@ Enter `cd` followed by the path to the directory where you saved your module. Ru
 </kbd>
 <br><br>
 
-To install [JupyterLab](https://pypi.org/project/jupyterlab/), enter the command `pip install JupyterLab`. This command downloads and installs JupyterLab and other packages it depends on from the Python Package Index (PyPI) at [https://pypi.org](https://pypi.org/), the official software repository for publicly available Python packages. 
+To install [JupyterLab](https://pypi.org/project/jupyterlab/), enter `pip install JupyterLab`. This command downloads and installs JupyterLab and other packages it depends on from the Python Package Index (PyPI) at [https://pypi.org](https://pypi.org/), the official software repository for publicly available Python packages. 
 When installation is complete, you will see the names of all the packages installed. You can also see the list of installed packages by entering `pip list`. The packages that JupyterLab depends on are known as JupyterLab's dependencies.
 
 <kbd>
