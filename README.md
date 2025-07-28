@@ -24,7 +24,7 @@ Installing the Python Interpreter (which we will refer to as Python when it is c
 You can download and install Python from the official Python website [https://www.python.org](https://www.python.org), which will give you the following applications (screenshot from Windows 10):
 
 <kbd>
-<img src="./images/python_apps.png" width="700" alt="Python IDLE">
+<img src="./images/python_apps.png" width="240" alt="Python IDLE">
 </kbd>
 <br><br>
 
@@ -56,7 +56,7 @@ At this point, you may be wondering: What is a [virtual environment](https://doc
 When installation of Miniconda is complete, you will see the following applications (screenshot from Windows 10):
 
 <kbd>
-<img src="./images/miniconda3.png" width="260" alt="Python IDLE">
+<img src="./images/miniconda3_apps.png" width="240" alt="Python IDLE">
 </kbd>
 <br><br>
 
