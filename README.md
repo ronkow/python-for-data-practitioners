@@ -67,7 +67,7 @@ Test that you can access the Python Interpreter and pip from Windows Powershell 
 </kbd>
 <br><br>
 
-You can also run your code in Windows Powershell or Command Prompt. Enter `python` at the prompt to access the Python Interpreter. Enter `exit` or `quit` to exit: 
+You can also type and run your code in Windows Powershell or Command Prompt. Enter `python` at the prompt to access the Python Interpreter. Enter `exit` or `quit` to exit: 
 
 <kbd>
 <img src="./images/command_prompt_python.png" width="700" alt="Python command line">
@@ -76,7 +76,7 @@ You can also run your code in Windows Powershell or Command Prompt. Enter `pytho
 
 
 Next, type `print('Hello, world!')` in Notepad and save your code as a Python module (e.g `mymodule.py`). 
-Run your module by entering the command `python mymodule.py`: 
+`cd` to the directory where you save your module and run it by entering the command `python mymodule.py`: 
 
 <kbd>
 <img src="./images/command_prompt_module.png" width="700" alt="Command Prompt">
