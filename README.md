@@ -22,7 +22,7 @@ If you are a full-time student or have a day job, it is more effective to commit
 To run Python code, you need to install the Python Interpreter (we will refer to it as Python when it is clear that we are referring to the software, not the language) which checks and runs Python code. 
 
 There are two ways to run Python code:
-- Type and save your code as a Python module (a file saved with the `.py` extension) in a text editor (e.g. Notepad in Windows). Run the module in a command line application (e.g. Windows PowerShell, Command Prompt).
+- Type and save your code as a Python module (a file saved with the `.py` extension) in a text editor (e.g. Notepad). Run the module in a command line application (e.g. Windows PowerShell, Command Prompt).
 - Type and run your code in an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment). IDEs are software that help programmers to manage software projects and write code efficiently.
 
 There are many IDEs that support Python. For beginners, we recommend using [JupyterLab](https://pypi.org/project/jupyterlab/) which runs in a web browser. The following section shows you the installation of Python and JupyterLab in Windows.  
@@ -45,7 +45,7 @@ First, run the Windows Installer. Remember to select `Add python.exe to PATH` on
 </kbd>
 <br><br>
 
-This installation includes a simple IDE called IDLE (Integrated Development and Learning Environment) and a command line application that works like IDLE. The installation also provides the complete documentation:
+This installation includes a simple IDE called IDLE (Integrated Development and Learning Environment) and a command line interface that works like IDLE. The installation also provides the complete documentation:
 
 <kbd>
 <img src="./images/python_apps.png" width="220" alt="Python applications">
@@ -62,14 +62,14 @@ This installation includes a simple IDE called IDLE (Integrated Development and 
 </kbd>
 <br><br>
 
-Test that you can access the Python Interpreter and pip from Windows Powershell or Command Prompt by checking the versions of Python and pip. Enter `python --version` and `pip --version`. Enter `pip list` to see the list of packages installed and their versions. pip is now the only package installed. 
+Test that you can access Python and pip from Command Prompt by checking the versions of Python and pip. Enter `python --version` and `pip --version`. Enter `pip list` to see the list of packages installed and their versions. pip is now the only package installed. 
 
 <kbd>
 <img src="./images/command_prompt_version.png" width="700" alt="Command Prompt">
 </kbd>
 <br><br>
 
-You can also type and run your code in Windows Powershell or Command Prompt. Enter `python` at the prompt to access the Python Interpreter. Enter `exit` or `quit` to exit: 
+You can also type and run your code in Command Prompt. Enter `python` to access Python. Enter `exit` or `quit` to exit: 
 
 <kbd>
 <img src="./images/command_prompt_python.png" width="700" alt="Python command line">
