@@ -1,7 +1,7 @@
 # Python for Data Pactitioners
 
 This is a course in Python programming for people who have never written code in any programming language before. 
-This course is designed for aspiring data practitioners, such as data analysts and data engineers.
+Although this course is designed for aspiring data practitioners, such as data analysts and data engineers, it is suitable for anyone interested in learning Python.
 We do not assume any prior knowledge of programming terminology and concepts.
 The only prerequisite is to have some basic math knowledge (e.g. prime numbers, sets, functions).
 
