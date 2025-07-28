@@ -3,7 +3,9 @@
 This is a course in Python programming for people who have never written code in any multi-purpose programming language before. 
 Although the course is designed for aspiring data practitioners, it is suitable for anyone interested in learning Python.
 We do not assume any prior knowledge of programming terminology and concepts.
-The only prerequisites are to have some basic math knowledge (e.g. prime numbers, sets, functions) and to be comfortable with working on the command line interface.
+The only prerequisite is to have some basic math knowledge (e.g. prime numbers, sets, functions). 
+It is also often necessary to use the command line interface (e.g. Windows PowerShell, Command Prompt). 
+All commands will be explained for the benefit of those with little experience.
 
 The lessons cover all programming terminology, concepts and Python best practices.
 We provide code examples, explanations and coding exercises with solutions.
@@ -22,7 +24,7 @@ If you are a full-time student or have a day job, it is more effective to commit
 To run Python code, you need to install the Python Interpreter (we will refer to it as Python when it is clear that we are referring to the software, not the language) which checks and runs Python code. 
 
 There are two ways to run Python code:
-- Type and save your code as a Python module (a file saved with the `.py` extension) in a text editor (e.g. Notepad). Run the module in a command line application (e.g. Windows PowerShell, Command Prompt).
+- Type and save your code as a Python module (a file saved with the `.py` extension) in a text editor (e.g. Notepad). Run the module on a command line interface.
 - Type and run your code in an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment). IDEs are software that help programmers to manage software projects and write code efficiently.
 
 There are many IDEs that support Python. For beginners, we recommend using [JupyterLab](https://pypi.org/project/jupyterlab/) which runs in a web browser. The following section shows you the installation of Python and JupyterLab in Windows.  
