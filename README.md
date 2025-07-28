@@ -104,7 +104,7 @@ A Python package is a collection of Python code. Python packages extend Python's
 When you develop a new package, there may be functionalities in your package that you do not need to implement yourself if there are publicly available packages for these functionalities. You can import these packages into your code. <!--The packages you import become your package's dependencies.-->The packages you import may also depend on other packages.
 It is therefore not unusual for a package to have so many dependencies.
 
-pip is a package installer and manager. It is used for installing and uninstalling other packages. pip downloads and installs packages from PyPI by default, but it can also install packages from other sources, such as your local directories. When installing a package, pip identifies and installs the correct versions of any other packages that the package depends on.
+pip is a Python package installer and manager. pip itself is a package, and it is used for installing and uninstalling other packages. pip downloads and installs packages from PyPI by default, but it can also install packages from other sources such as your local directories. When installing a package, pip identifies and installs the correct versions of any other packages that the package depends on.
 
 To launch JupyterLab, enter `jupyter-lab` (note the hyphen) in Command Prompt. This will open JupyterLab in your default web browser.
 
