@@ -19,17 +19,17 @@ If you are a full-time student or have a day job, it is more effective to commit
 
 To run Python code, you need to install the Python Interpreter (we will refer to it as Python when it is clear that we are referring to the software, not the language) which checks and runs Python code. While it is possible to type your code in a text editor (e.g. Notepad in Windows) and run your code using a command line application (e.g. Windows PowerShell), it is much easier to type and run your code in an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment). IDEs are software that help programmers to manage software projects and write code efficiently.     
 
-There are different ways to install Python and there are many IDEs that support Python. We will show you two options.
+There are different ways to install Python and there are many IDEs that support Python. We will show you two installation options for Windows.
 
 ### OPTION 1: INSTALLING PYTHON FROM THE OFFICIAL WEBSITE
-You can download and install Python from the official Python website [https://www.python.org](https://www.python.org). Select `Add python.exe to PATH` so that you can run your code from any path on a command line.
+You can download and install Python from the official Python website [https://www.python.org](https://www.python.org). From the Windows Installer, select `Add python.exe to PATH` so that you can run your code from any path on a command line.
 
 <kbd>
 <img src="./images/python_install.png" width="500" alt="Python IDLE">
 </kbd>
 <br><br>
 
-This installs the following applications (screenshot from Windows 10):
+This installs the following applications:
 
 <kbd>
 <img src="./images/python_apps.png" width="240" alt="Python IDLE">
@@ -47,14 +47,7 @@ This installation includes a basic interactive IDE called IDLE (Integrated Devel
 </kbd>
 <br><br>
 
-To run Python modules (files saved with the `.py` extension) using a command line application, you need to first edit your `Path` environment variable to add the file path (e.g. `C:\Users\xxx\AppData\Local\Programs\Python`) of the Python application (i.e. the `python.exe` file).
-
-<kbd>
-<img src="./images/environment_variables.png" width="600" alt="Python IDLE">
-</kbd>
-<br><br>
-
-Type and save your code in a text editor (e.g `myfirstprogram.py`) and run your code (e.g. in Windows PowerShell or Command Prompt) by entering the command `python myfirstprogram.py`: 
+To run Python modules (code files saved with the `.py` extension) on a command line, type and save your code in a text editor (e.g `mymodule.py`) and run your code in Windows PowerShell or Command Prompt by entering the command `python mymodule.py`: 
 
 <kbd>
 <img src="./images/command_prompt.png" width="400" alt="Python IDLE">
