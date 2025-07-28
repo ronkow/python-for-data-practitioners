@@ -25,7 +25,7 @@ There are different ways to install Python and there are many IDEs that support 
 You can download and install Python from the official Python website [https://www.python.org](https://www.python.org). Select `Add python.exe to PATH` so that you can run your code from any path on a command line.
 
 <kbd>
-<img src="./images/python_install.png" width="400" alt="Python IDLE">
+<img src="./images/python_install.png" width="500" alt="Python IDLE">
 </kbd>
 <br><br>
 
