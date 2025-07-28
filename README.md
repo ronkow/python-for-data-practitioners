@@ -32,7 +32,9 @@ There are many IDEs that support Python. For beginners, we recommend using [Jupy
 ### INSTALLING PYTHON AND JUPYTERLAB
 
 In this tutorial, we will:
-- Download and run the Windows Installer from the official Python website at [https://www.python.org](https://www.python.org). This installation will install the latest version of Python and a software called pip, used for installing and uninstalling Python packages. 
+- Download and run the Windows Installer from the official Python website at [https://www.python.org](https://www.python.org). This installation will install the latest version of Python and a software called pip, used for installing and uninstalling Python packages. It will also install an interactive IDE and the complete documentation. 
+- Type and run Python code in the IDE installed.
+- Type and run Python code in Command Prompt. 
 - Run a Python module in Command Prompt.
 - Install JupyterLab using pip in Command Prompt.
 
@@ -83,7 +85,7 @@ Next, type `print('Hello, world!')` in Notepad and save your code as a Python mo
 </kbd>
 <br><br>
 
-Lastly, install [JupyterLab](https://pypi.org/project/jupyterlab/) by entering the command `pip install JupyterLab`. This command downloads and installs JupyterLab and other packages it depends on from the Python Package Index (PyPI) at [https://pypi.org](https://pypi.org/), the official software repository for publicly available Python packages. 
+To install [JupyterLab](https://pypi.org/project/jupyterlab/), enter the command `pip install JupyterLab`. This command downloads and installs JupyterLab and other packages it depends on from the Python Package Index (PyPI) at [https://pypi.org](https://pypi.org/), the official software repository for publicly available Python packages. 
 When installation is complete, you will see the names of all the packages installed. You can also see the list of installed packages by entering `pip list`.
 
 <kbd>
