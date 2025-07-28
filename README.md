@@ -9,8 +9,8 @@ We provide code examples, explanations and coding exercises with solutions.
 You need to study code patterns and understand every line of code in the examples.
 After that, type (or modify, if you like) and run the code to build your muscle memory.  
 
-We encourage you to learn programming like you would learn a foreign language - incrementally through regular reading, writing and short practices.
-It takes years to fluently speak and write in a foreign language. While programming is arguably easier, it will take many months of consistent work to master your first programming language.
+We encourage you to learn programming like you would learn a foreign language - incrementally through regular speaking, reading and writing.
+It takes years to fluently speak and write in a foreign language. While programming is arguably easier, it will take many months of regular practice to master your first programming language.
 If you are a full-time student or have a day job, it is more effective to commit to 30 minutes of daily practice over one year than to try to learn everything in one month.
 
   
