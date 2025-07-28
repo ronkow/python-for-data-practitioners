@@ -99,7 +99,7 @@ You can also see the list of installed packages by entering `pip list`. The pack
 
 At this point, you may be wondering: What is a [Python package](https://docs.python.org/3/tutorial/modules.html#packages)? Why are there so many packages installed? What does pip actually do?
 
-A Python package is a collection of Python code. Python packages extend Python's functionality. For example, the [scikit-learn](https://pypi.org/project/scikit-learn/) package is used for creating machine learning models. Most publicly available packages are found in PyPI because anyone can develop and publish a package to PyPI. You can now find a Python package for almost any functionality. This is one of the reasons why Python is so widely used.   
+A Python package is a collection of Python code. Python packages extend Python's functionality. For example, the [scikit-learn](https://pypi.org/project/scikit-learn/) package implements methods and models for machine learning. Most publicly available packages are found in PyPI because anyone can develop and publish a package to PyPI. You can now find a Python package for almost any functionality. This is one of the reasons why Python is so widely used.   
 
 When you develop a new package, there may be functionalities in your package that you do not need to implement yourself if there are publicly available packages for these functionalities. You can import these packages into your code. <!--The packages you import become your package's dependencies.-->The packages you import may also depend on other packages.
 It is therefore not unusual for a package to have so many dependencies.
