@@ -63,7 +63,7 @@ For a much better IDE and learning experience, we recommend using [JupyterLab](h
 <!-- (https://docs.conda.io/en/latest/) -->
 
 The two-step installation process will be as follows:
-- Download and install [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main#should-i-install-miniconda-or-anaconda-distribution). Miniconda is one of two Python distributions (a curated collection of Python packages) from [Anaconda](https://www.anaconda.com/). By installing Miniconda, you will install the latest version of Python (version 3.13.5 at the time of writing this guide), conda, pip and a number of other packages.
+- Download and install [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main#should-i-install-miniconda-or-anaconda-distribution). Miniconda is one of two Python distributions (a curated collection of Python packages) from [Anaconda](https://www.anaconda.com/). By installing Miniconda, you will install the latest version of Python, conda, pip and a number of other packages.
 - Install JupyterLab using pip.
 
 At this point, you may be wondering: What is a [virtual environment](https://docs.python.org/3/library/venv.html)? What is a [Python package](https://docs.python.org/3/tutorial/modules.html#packages)? Let's first proceed with our installation. We will explain these terms along the way.
