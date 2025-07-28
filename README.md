@@ -4,13 +4,13 @@ This is a course in Python programming for people who have never written code in
 Although the course is designed for aspiring data practitioners, it is suitable for anyone interested in learning Python.
 We do not assume any prior knowledge of programming terminology and concepts.
 The only prerequisite is to have some basic math knowledge (e.g. prime numbers, sets, functions). 
-It is also often necessary to use the command line interface (e.g. Windows PowerShell, Command Prompt). 
-All commands will be explained for the benefit of those with little experience.
 
 The lessons cover all programming terminology, concepts and Python best practices.
 We provide code examples, explanations and coding exercises with solutions.
 You need to study code patterns and understand every line of code in the examples.
-After that, type (or modify, if you like) and run the code to build your muscle memory.  
+After that, type (or modify, if you like) and run the code to build your muscle memory. 
+It is also often necessary to use the command line interface (e.g. Windows PowerShell, Command Prompt). 
+All commands will be explained for the benefit of those with little experience.
 
 We encourage you to learn programming like you would learn a foreign language - incrementally through regular speaking, reading and writing.
 It takes years to fluently speak and write in a foreign language. While programming is arguably easier, it will take many months of regular practice to master your first programming language.
