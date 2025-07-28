@@ -3,19 +3,21 @@
 This is a set of lessons in Python programming for people who have never written code in any programming language before.
 We do not assume any prior knowledge of programming terminology and concepts.
 The only prerequisite is to have some basic math knowledge (e.g. prime numbers, sets, functions).
- 
-We encourage you to learn programming like you would learn a foreign language - incrementally through regular reading, writing and short practices.
-It takes years to fluently speak and write in a foreign language. While programming is arguably easier, it will take many months of consistent work to master your first programming language.
-If you are a full-time student or have a day job, it is more effective to commit to 30 minutes of daily practice over one year than to try to learn everything in one month.
 
 The lessons cover all programming terminology, concepts and Python best practices.
 We provide code examples, explanations and coding exercises with solutions.
 You need to study code patterns and understand every line of code in the examples.
-After that, type (or modify, if you like) and run the code to build your muscle memory.    
+After that, type (or modify, if you like) and run the code to build your muscle memory.  
+
+We encourage you to learn programming like you would learn a foreign language - incrementally through regular reading, writing and short practices.
+It takes years to fluently speak and write in a foreign language. While programming is arguably easier, it will take many months of consistent work to master your first programming language.
+If you are a full-time student or have a day job, it is more effective to commit to 30 minutes of daily practice over one year than to try to learn everything in one month.
+
+  
 
 ### HOW DO I RUN PYTHON CODE?
 
-To run Python code, you need to install the Python Interpreter (the software that checks and executes Python code). While it is possible to type your code in Notepad and run your code with just the Python Interpreter installed, it is much easier to type and run your code in an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment). IDEs are software that help programmers to manage software projects and write code efficiently.     
+To run Python code, you need to install the Python Interpreter (the software that checks and executes Python code). While it is possible to type your code in a text editor (e.g. Notepad in Windows) and run your code with just the Python Interpreter installed, it is much easier to type and run your code in an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment). IDEs are software that help programmers to manage software projects and write code efficiently.     
 
 Installing and setting up the Python Interpreter (which we will refer to as Python when it is clear that we are referring to the software, not the language) and a choosing an IDE for the first time is a tricky process because there are different ways you can install Python and there are many IDEs that support Python. 
 
