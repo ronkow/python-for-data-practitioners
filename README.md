@@ -1,7 +1,7 @@
 # Python for Data Pactitioners
 
 This is a course in Python programming for people who have never written code in any programming language before. 
-Although this course is designed for aspiring data practitioners, such as data analysts and data engineers, it is suitable for anyone interested in learning Python.
+Although the course is designed for aspiring data practitioners, it is suitable for anyone interested in learning Python.
 We do not assume any prior knowledge of programming terminology and concepts.
 The only prerequisite is to have some basic math knowledge (e.g. prime numbers, sets, functions).
 
@@ -31,8 +31,8 @@ There are many IDEs that support Python. For beginners, we recommend using [Jupy
 
 ### INSTALLING PYTHON AND JUPYTERLAB
 
-In this tutorial, we will show you the following:
-- Download and run the Windows Installer from the official Python website at [https://www.python.org](https://www.python.org). This installation will install the latest version of Python, pip and a number of other packages.
+In this tutorial, we will:
+- Download and run the Windows Installer from the official Python website at [https://www.python.org](https://www.python.org). This installation will install the latest version of Python and a software called pip, used for installing Python packages.
 - Run a Python module in Command Prompt.
 - Install JupyterLab using pip in Command Prompt.
 
