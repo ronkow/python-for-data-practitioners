@@ -60,6 +60,13 @@ This installation includes a simple IDE called IDLE (Integrated Development and 
 </kbd>
 <br><br>
 
+Test that you can access the Python Interpreter and pip from Windows Powershell or Command Prompt by checking the versions of Python and pip. Enter `python --version` and `pip --version`. Enter `pip list` to see the list of packages installed and their versions. pip is now the only package installed. As explained earlier, pip is used for installing and uninstalling other packages. When installing a package, pip identifies and installs any other packages that the package depends on. 
+
+<kbd>
+<img src="./images/command_prompt_version.png" width="700" alt="Command Prompt">
+</kbd>
+<br><br>
+
 You can also run your code in Windows Powershell or Command Prompt. Enter `python` at the prompt to access the Python Interpreter. Enter `exit` or `quit` to exit: 
 
 <kbd>
@@ -67,12 +74,6 @@ You can also run your code in Windows Powershell or Command Prompt. Enter `pytho
 </kbd>
 <br><br>
 
-Test that you can access Python from Windows Powershell or Command Prompt by checking the versions of Python and pip. Enter `python --version` and `pip --version`. Enter `pip list` to see the list of packages installed and their versions. pip is now the only package installed. As explained earlier, pip is used for installing and uninstalling other packages. When installing a package, pip identifies and installs any other packages that the package depends on. 
-
-<kbd>
-<img src="./images/command_prompt_version.png" width="700" alt="Command Prompt">
-</kbd>
-<br><br>
 
 Next, type `print('Hello, world!')` in Notepad and save your code as a Python module (e.g `mymodule.py`). 
 Run your module by entering the command `python mymodule.py`: 
