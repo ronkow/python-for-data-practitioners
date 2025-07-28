@@ -1,12 +1,14 @@
 # Python for Data Pactitioners
 
+Hello!
+
 This is a course in Python programming for people who have never written code in any multi-purpose programming language before. 
 Although the course is designed for aspiring data practitioners, it is suitable for anyone interested in learning Python.
 We do not assume any prior knowledge of programming terminology and concepts.
 The only prerequisite is to have some basic math knowledge (e.g. prime numbers, sets, functions). 
 
-The lessons cover all programming terminology, concepts and Python best practices.
-We provide code examples, explanations and coding exercises with solutions.
+The lessons cover all programming terminology, concepts and Python best practices. 
+There are code examples, explanations and coding exercises with solutions.
 You need to study code patterns and understand every line of code in the examples.
 After that, type (or modify, if you like) and run the code to build your muscle memory. 
 It is also often necessary to use a command line interface (e.g. Windows PowerShell, Command Prompt). 
