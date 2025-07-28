@@ -55,7 +55,7 @@ This installation includes a simple IDE called IDLE (Integrated Development and 
 <br><br>
 
 <kbd>
-<img src="./images/python_command_line.png" width="700" alt="Python command line">
+<img src="./images/python_command_line.png" width="600" alt="Python command line">
 </kbd>
 <br><br>
 
@@ -75,7 +75,7 @@ Run your module by entering the command `python mymodule.py`:
 <br><br>
 
 Lastly, install JupyterLab by entering the command `pip install JupyterLab`. This command downloads and installs JupyterLab and other packages it depends on from the Python Package Index at [https://pypi.org](https://pypi.org/), the official repository for Python packages.
-When installation is complete, you see the names of all the packages installed. You can also get the list of installed packages by entering `pip list`.
+When installation is complete, you will see the names of all the packages installed. You can also see the list of installed packages by entering `pip list`.
 
 <kbd>
 <img src="./images/command_prompt_jupyterlab.png" width="700" alt="JupyterLab dependent packages">
