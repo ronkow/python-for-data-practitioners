@@ -62,7 +62,7 @@ This installation includes a simple IDE called IDLE (Integrated Development and 
 </kbd>
 <br><br>
 
-Test that you can access Python and pip from Command Prompt by checking the versions of Python and pip. Enter `python --version` and `pip --version`. Enter `pip list` to see the list of packages installed and their versions. pip is now the only package installed. 
+Test that you can access Python and pip in Command Prompt by checking the versions of Python and pip. Enter `python --version` and `pip --version`. Enter `pip list` to see the list of packages installed and their versions. pip is now the only package installed. 
 
 <kbd>
 <img src="./images/command_prompt_version.png" width="700" alt="Command Prompt">
