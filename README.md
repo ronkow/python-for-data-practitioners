@@ -40,7 +40,7 @@ In this tutorial, we will:
 - Run a Python module in Command Prompt.
 - Install JupyterLab using pip in Command Prompt.
 
-First, run the Windows Installer. Remember to select `Add python.exe to PATH` on the Windows Installer so that you can run your code from any path on a command line. 
+First, run the Windows Installer. Remember to select `Add python.exe to PATH` on the Windows Installer so that you can run your code from any path in a command line interface.
 
 <kbd>
 <img src="./images/python_install.png" width="500" alt="Python Windows Installer">
