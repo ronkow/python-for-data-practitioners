@@ -32,7 +32,7 @@ There are many IDEs that support Python. For beginners, we recommend using [Jupy
 ### INSTALLING PYTHON AND JUPYTERLAB
 
 In this tutorial, we will:
-- Download and run the Windows Installer from the official Python website at [https://www.python.org](https://www.python.org). This installation will install the latest version of Python and a software called pip, used for installing Python packages.
+- Download and run the Windows Installer from the official Python website at [https://www.python.org](https://www.python.org). This installation will install the latest version of Python and a software called pip, used for installing and uninstalling Python packages. 
 - Run a Python module in Command Prompt.
 - Install JupyterLab using pip in Command Prompt.
 
@@ -43,7 +43,7 @@ First, run the Windows Installer. Remember to select `Add python.exe to PATH` on
 </kbd>
 <br><br>
 
-This installation includes a simple IDE called IDLE (Integrated Development and Learning Environment), a command line application that works like IDLE, and the complete documentation:
+This installation includes a simple IDE called IDLE (Integrated Development and Learning Environment) and a command line application that works like IDLE. It will also provide the complete documentation:
 
 <kbd>
 <img src="./images/python_apps.png" width="220" alt="Python applications">
@@ -60,7 +60,14 @@ This installation includes a simple IDE called IDLE (Integrated Development and 
 </kbd>
 <br><br>
 
-Test that you can access Python from Windows Powershell or Command Prompt by checking the versions of Python and pip. Enter `python --version` and `pip --version` at the prompt. 
+You can also run your code in Windows Powershell or Command Prompt. Enter `python` at the prompt to access the interactive interface that works like IDLE: 
+
+<kbd>
+<img src="./images/command_prompt_python.png" width="700" alt="Python command line">
+</kbd>
+<br><br>
+
+Test that you can access Python from Windows Powershell or Command Prompt by checking the versions of Python and pip. Enter `python --version` and `pip --version`. Enter `pip list` to see the list of packages installed and their versions. pip is now the only package installed. As explained earlier, pip is used for installing and uninstalling other packages. When installing a package, pip identifies and installs any other packages that the package depends on. 
 
 <kbd>
 <img src="./images/command_prompt_version.png" width="700" alt="Command Prompt">
