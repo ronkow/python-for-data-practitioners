@@ -80,7 +80,7 @@ You can also type and run your code in Command Prompt. Enter `python` to access 
 
 
 Next, type `print('Hello, world!')` in Notepad and save your code as a Python module (e.g `mymodule.py`). 
-`cd` to the directory where you saved your module and run it by entering the command `python mymodule.py`: 
+Enter `cd` followed by the path to the directory where you saved your module. Run your module by entering the command `python mymodule.py`: 
 
 <kbd>
 <img src="./images/command_prompt_module.png" width="700" alt="Command Prompt">
