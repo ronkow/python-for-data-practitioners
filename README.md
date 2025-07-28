@@ -45,12 +45,12 @@ First, run the Windows Installer. Remember to select `Add python.exe to PATH` on
 This installation includes a simple IDE called IDLE (Integrated Development and Learning Environment), a command line application that works like IDLE, and the complete documentation:
 
 <kbd>
-<img src="./images/python_apps.png" width="240" alt="Python applications">
+<img src="./images/python_apps.png" width="220" alt="Python applications">
 </kbd>
 <br><br>
 
 <kbd>
-<img src="./images/python_idle.png" width="600" alt="Python IDLE">
+<img src="./images/python_idle.png" width="700" alt="Python IDLE">
 </kbd>
 <br><br>
 
@@ -85,21 +85,21 @@ When installation is complete, you see the names of all the packages installed. 
 To open JupyterLab, enter `jupyter-lab` (note the hyphen) in Command Prompt. This will open JupyterLab in your default web browser.
 
 <kbd>
-<img src="./images/jupyterlab_default.png" width="600" alt="Python IDLE">
+<img src="./images/jupyterlab_default.png" width="800" alt="JupyterLab">
 </kbd>
 <br><br>
 
 To type and run your code interactively, use Notebooks. Select `File` -> `New` -> `Notebook` to open a new Notebook, then select the default kernel option Python 3 (ipykernel):
 
 <kbd>
-<img src="./images/jupyterlab_notebook_select.png" width="600" alt="Python IDLE">
+<img src="./images/jupyterlab_notebook_select.png" width="800" alt="JupyterLab Notebook">
 </kbd>
 <br><br>
 
 In any cell, enter your code and click on the Run button (or use the keyboard shortcut `Shift` `Enter`):
 
 <kbd>
-<img src="./images/jupyterlab_notebook_hello.png" width="600" alt="Python IDLE">
+<img src="./images/jupyterlab_notebook_hello.png" width="800" alt="JupyterLab Hello">
 </kbd>
 <br><br>
 
