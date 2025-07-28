@@ -22,7 +22,7 @@ To run Python code, you need to install the Python Interpreter (we will refer to
 There are different ways to install Python and there are many IDEs that support Python. We will show you two installation options for Windows.
 
 ### OPTION 1: INSTALLING PYTHON FROM THE OFFICIAL WEBSITE
-You can download and install Python from the official Python website [https://www.python.org](https://www.python.org). From the Windows Installer, select `Add python.exe to PATH` so that you can run your code from any path on a command line.
+You can download and install Python from the official Python website [https://www.python.org](https://www.python.org). On the Windows Installer, select `Add python.exe to PATH` so that you can run your code from any path on a command line.
 
 <kbd>
 <img src="./images/python_install.png" width="500" alt="Python IDLE">
