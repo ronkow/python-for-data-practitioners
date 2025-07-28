@@ -60,7 +60,7 @@ This installation includes a simple IDE called IDLE (Integrated Development and 
 </kbd>
 <br><br>
 
-You can also run your code in Windows Powershell or Command Prompt. Enter `python` at the prompt to access an interactive interface that works like IDLE: 
+You can also run your code in Windows Powershell or Command Prompt. Enter `python` at the prompt to access the Python Interpreter. Enter `exit` or `quit` to exit: 
 
 <kbd>
 <img src="./images/command_prompt_python.png" width="700" alt="Python command line">
