@@ -88,7 +88,7 @@ Enter `cd` followed by the path to the directory where you saved your module. Ru
 <br><br>
 
 To install [JupyterLab](https://pypi.org/project/jupyterlab/), enter the command `pip install JupyterLab`. This command downloads and installs JupyterLab and other packages it depends on from the Python Package Index (PyPI) at [https://pypi.org](https://pypi.org/), the official software repository for publicly available Python packages. 
-When installation is complete, you will see the names of all the packages installed. You can also see the list of installed packages by entering `pip list`.
+When installation is complete, you will see the names of all the packages installed. You can also see the list of installed packages by entering `pip list`. The packages that JupyterLab depends on are known as JupyterLab's dependencies.
 
 <kbd>
 <img src="./images/command_prompt_jupyterlab.png" width="700" alt="JupyterLab dependent packages">
@@ -99,8 +99,8 @@ At this point, you may be wondering: What is a [Python package](https://docs.pyt
 
 A Python package is a collection of Python code. Python packages extend Python's functionality. For example, the [scikit-learn](https://pypi.org/project/scikit-learn/) package is used for creating machine learning models. Most publicly available packages are found in PyPI because anyone can develop and publish a package to PyPI. You can now find a Python package for almost any functionality. This is one of the reasons why Python is so widely used.   
 
-When you develop a new package, there may be functionalities in your package that you do not need to implement yourself if there are publicly available packages for these functionalities. You can import these packages into your code. The packages you import become your package's dependencies. The packages you import may also depend on other packages.
-It is therefore not unusual for a package to depend on many other packages.  
+When you develop a new package, there may be functionalities in your package that you do not need to implement yourself if there are publicly available packages for these functionalities. You can import these packages into your code. <!--The packages you import become your package's dependencies.-->The packages you import may also depend on other packages.
+It is therefore not unusual for a package to have so many dependencies.
 
 pip is a package installer and manager. It is used for installing and uninstalling other packages. pip downloads and installs packages from PyPI by default, but it can also install packages from other sources, such as your local directories. When installing a package, pip identifies and installs the correct versions of any other packages that the package depends on.
 
