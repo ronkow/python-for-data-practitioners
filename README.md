@@ -40,7 +40,7 @@ This installation includes a basic interactive IDE called IDLE (Integrated Devel
 </kbd>
 <br><br>
 
-To run Python modules (a single code file saved with the `.py` extension) using a command line application, you need to first edit the `Path` environment variable to add the path to the Python application you have installed (i.e. the `python.exe` file). Type your code in a text editor, save it (e.g `myfirstprogram.py`) and run your code (e.g. in Command Prompt): 
+To run Python modules (a single code file saved with the `.py` extension) using a command line application, you need to first edit the `Path` environment variable to add the path to the Python application you have installed (i.e. the `python.exe` file). Type and save your code in a text editor (e.g `myfirstprogram.py`) and run your code (e.g. in Command Prompt): 
 
 <kbd>
 <img src="./images/command_prompt.png" width="400" alt="Python IDLE">
