@@ -17,12 +17,12 @@ If you are a full-time student or have a day job, it is more effective to commit
 
 ### HOW DO I RUN PYTHON CODE?
 
-To run Python code, you need to install the Python Interpreter (the software that checks and executes Python code). While it is possible to type your code in a text editor (e.g. Notepad in Windows) and run your code using a command line application (e.g. Windows PowerShell) with just the Python Interpreter installed, it is much easier to type and run your code in an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment). IDEs are software that help programmers to manage software projects and write code efficiently.     
+To run Python code, you need to install the Python Interpreter (we will refer to it as Python when it is clear that we are referring to the software, not the language) which checks and runs Python code. While it is possible to type your code in a text editor (e.g. Notepad in Windows) and run your code using a command line application (e.g. Windows PowerShell), it is much easier to type and run your code in an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment). IDEs are software that help programmers to manage software projects and write code efficiently.     
 
-There are different ways to install the Python Interpreter (which we will refer to as Python when it is clear that we are referring to the software, not the language) and there are many IDEs that support Python. We will show you two options.
+There are different ways to install Python and there are many IDEs that support Python. We will show you two options.
 
 ### OPTION 1: INSTALLING PYTHON FROM THE OFFICIAL WEBSITE
-You can download and install Python from the official Python website [https://www.python.org](https://www.python.org), which will gives you the following applications (screenshot from Windows 10):
+You can download and install Python from the official Python website [https://www.python.org](https://www.python.org). This installs the following applications (screenshot from Windows 10):
 
 <kbd>
 <img src="./images/python_apps.png" width="240" alt="Python IDLE">
@@ -40,7 +40,14 @@ This installation includes a basic interactive IDE called IDLE (Integrated Devel
 </kbd>
 <br><br>
 
-To run Python modules (a single code file saved with the `.py` extension) using a command line application, you need to first edit your `Path` environment variable to add the path to the Python application you have installed (i.e. the `python.exe` file). Type and save your code in a text editor (e.g `myfirstprogram.py`) and run your code (e.g. in Windows PowerShell or Command Prompt) by entering the command `python myfirstprogram.py`: 
+To run Python modules (files saved with the `.py` extension) using a command line application, you need to first edit your `Path` environment variable to add the file path (e.g. `C:\Users\xxx\AppData\Local\Programs\Python`) of the Python application (i.e. the `python.exe` file).
+
+<kbd>
+<img src="./images/environment_variables.png" width="600" alt="Python IDLE">
+</kbd>
+<br><br>
+
+Type and save your code in a text editor (e.g `myfirstprogram.py`) and run your code (e.g. in Windows PowerShell or Command Prompt) by entering the command `python myfirstprogram.py`: 
 
 <kbd>
 <img src="./images/command_prompt.png" width="400" alt="Python IDLE">
