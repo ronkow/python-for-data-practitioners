@@ -59,12 +59,18 @@ This installation includes a simple IDE called IDLE (Integrated Development and 
 </kbd>
 <br><br>
 
-Next, test that you can access Python from Windows Powershell or Command Prompt by checking the versions of Python and pip. Enter `python --version` and `pip --version` at the prompt. 
+Test that you can access Python from Windows Powershell or Command Prompt by checking the versions of Python and pip. Enter `python --version` and `pip --version` at the prompt. 
+
+<kbd>
+<img src="./images/command_prompt_version.png" width="400" alt="Command Prompt">
+</kbd>
+<br><br>
+
 Next, type `print('Hello, world!')` in Notepad and save your code as a Python module (e.g `mymodule.py`). 
 Run your module by entering the command `python mymodule.py`: 
 
 <kbd>
-<img src="./images/command_prompt.png" width="400" alt="Command Prompt">
+<img src="./images/command_prompt_module.png" width="400" alt="Command Prompt">
 </kbd>
 <br><br>
 
@@ -75,6 +81,39 @@ When installation is complete, you see the names of all the packages installed. 
 <img src="./images/jupyterlab_packages.png" width="400" alt="JupyterLab dependent packages">
 </kbd>
 <br><br>
+
+To open JupyterLab, enter `jupyter-lab` (note the hyphen) in Command Prompt. This will open JupyterLab in your default web browser.
+
+<kbd>
+<img src="./images/jupyterlab_default.png" width="600" alt="Python IDLE">
+</kbd>
+<br><br>
+
+To type and run your code interactively, use Notebooks. Select `File` -> `New` -> `Notebook` to open a new Notebook, then select the default kernel option Python 3 (ipykernel):
+
+<kbd>
+<img src="./images/jupyterlab_notebook_select.png" width="600" alt="Python IDLE">
+</kbd>
+<br><br>
+
+In any cell, enter your code and click on the Run button (or use the keyboard shortcut `Shift` `Enter`):
+
+<kbd>
+<img src="./images/jupyterlab_notebook_hello.png" width="600" alt="Python IDLE">
+</kbd>
+<br><br>
+
+Please refer to the JupyterLab [documentation](https://jupyterlab.readthedocs.io/en/latest/) for a complete user guide. You are now ready for our lessons.
+
+
+
+
+
+
+
+
+
+
 
 
 
