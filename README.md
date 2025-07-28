@@ -55,14 +55,14 @@ This installation includes a simple IDE called IDLE (Integrated Development and 
 <br><br>
 
 <kbd>
-<img src="./images/python_command_line.png" width="600" alt="Python command line">
+<img src="./images/python_command_line.png" width="700" alt="Python command line">
 </kbd>
 <br><br>
 
 Test that you can access Python from Windows Powershell or Command Prompt by checking the versions of Python and pip. Enter `python --version` and `pip --version` at the prompt. 
 
 <kbd>
-<img src="./images/command_prompt_version.png" width="400" alt="Command Prompt">
+<img src="./images/command_prompt_version.png" width="700" alt="Command Prompt">
 </kbd>
 <br><br>
 
@@ -70,7 +70,7 @@ Next, type `print('Hello, world!')` in Notepad and save your code as a Python mo
 Run your module by entering the command `python mymodule.py`: 
 
 <kbd>
-<img src="./images/command_prompt_module.png" width="400" alt="Command Prompt">
+<img src="./images/command_prompt_module.png" width="700" alt="Command Prompt">
 </kbd>
 <br><br>
 
@@ -78,7 +78,7 @@ Lastly, install JupyterLab by entering the command `pip install JupyterLab`. Thi
 When installation is complete, you see the names of all the packages installed. You can also get the list of installed packages by entering `pip list`.
 
 <kbd>
-<img src="./images/jupyterlab_packages.png" width="400" alt="JupyterLab dependent packages">
+<img src="./images/command_prompt_jupyterlab.png" width="700" alt="JupyterLab dependent packages">
 </kbd>
 <br><br>
 
