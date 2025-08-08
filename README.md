@@ -2,7 +2,7 @@
 
 Hello!
 
-This is a course in Python programming for people who have never written code in any multi-purpose programming language before. 
+This is a course in Python programming for people who have never written code in any [general-purpose programming language](https://en.wikipedia.org/wiki/General-purpose_programming_language) before. 
 Although I have designed the course for aspiring data practitioners, it is suitable for anyone interested in learning Python.
 I do not assume any prior knowledge of programming terminology and concepts.
 The only prerequisite is to have some basic math knowledge (e.g. prime numbers, sets, functions). 
