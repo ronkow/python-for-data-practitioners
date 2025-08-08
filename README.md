@@ -53,7 +53,7 @@ First, run the Windows Installer. Remember to select `Add python.exe to PATH` on
 </kbd>
 <br><br>
 
-This installation includes a simple IDE called IDLE (Integrated Development and Learning Environment) and a command line interface that works like IDLE. The installation also provides the complete documentation:
+The installation includes a simple IDE called IDLE (Integrated Development and Learning Environment) and a command line interface that works like IDLE. The installation also provides the complete documentation:
 
 <kbd>
 <img src="./images/python_apps.png" width="220" alt="Python applications">
