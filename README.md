@@ -11,7 +11,7 @@ In this course, we will use real-world [food recall data from the EU](https://we
 I do not assume any prior knowledge of programming terminology and concepts.
 The only prerequisite is to have some basic math knowledge (e.g. prime numbers, sets, functions). 
 
-The lessons cover programming terminology, concepts and Python best practices. 
+The lessons cover general programming terminology and concepts, and Python code patterns and best practices. 
 There are code examples, explanations and coding exercises with solutions.
 You need to study code patterns and understand every line of code in the examples.
 After that, type (or modify, if you like) and run the code to build your muscle memory. 
