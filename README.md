@@ -18,7 +18,7 @@ The lessons cover general programming terminology and concepts, Python code patt
 There are code examples, explanations and coding exercises with solutions.
 You need to study code patterns and understand every line of code in the examples.
 After that, type (or modify, if you like) and run the code to build your muscle memory. 
-It is also often necessary to use a command line interface (e.g. Windows PowerShell, Command Prompt). 
+It is also often necessary to use a command line interface (e.g. Command Prompt, Windows Powershell). 
 I will explain all commands for the benefit of those with little experience.
 
 I encourage you to learn programming like you would learn a foreign language incrementally through regular speaking, reading and writing.
@@ -35,6 +35,7 @@ First, you need to install the Python Interpreter which checks and runs Python c
 There are a few ways to run Python code:
 - Type and save your code as a Python module (a file saved with the `.py` extension) in a text editor (e.g. Notepad). Run the module in a command line interface.
 - Type and run your code in an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment). IDEs are software that help programmers to manage software projects and write code efficiently.
+- Type and run your code interactively in your existing command line interface. 
 
 There are many IDEs that support Python. For beginners, I recommend using [JupyterLab](https://pypi.org/project/jupyterlab/) which runs in a web browser. The following section shows you the installation of Python and JupyterLab in Windows.  
 
