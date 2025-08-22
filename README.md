@@ -33,9 +33,9 @@ If you are a full-time student or have a day job, it is more effective to commit
 First, you need to install the Python Interpreter which checks and runs Python code. I will refer to the Python Interpreter as Python when it clearly refers to the software, not the language.  
 
 There are a few ways to run Python code:
-- Type and save your code as a Python module (a file saved with the `.py` extension) in a text editor (e.g. Notepad). Run the module in a command line interface.
+- Type and save your code as a Python module (a file saved with the `.py` extension) in a text editor (e.g. Notepad). Run the module in your operating system's command line interface.
 - Type and run your code interactively in your operating system's command line interface.  
-- Type and run your code in an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment). IDEs are software that help programmers to manage software projects and write code efficiently.
+- Use an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment). IDEs are software that help programmers to manage software projects and write code efficiently.
 
 
 There are many IDEs that support Python. For beginners, I recommend using [JupyterLab](https://pypi.org/project/jupyterlab/) which runs in a web browser. The following section shows you the installation of Python and JupyterLab in Windows.  
