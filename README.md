@@ -34,7 +34,7 @@ First, you need to install the Python Interpreter which checks and runs Python c
 
 There are a few ways to run Python code:
 - Type and save your code as a Python module (a file saved with the `.py` extension) in a text editor (e.g. Notepad). Run the module in a command line interface.
-- Type and run your code interactively in your existing command line interface.  
+- Type and run your code interactively in your operating system's command line interface.  
 - Type and run your code in an [Integrated Development Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment). IDEs are software that help programmers to manage software projects and write code efficiently.
 
 
@@ -45,7 +45,7 @@ There are many IDEs that support Python. For beginners, I recommend using [Jupyt
 ### INSTALLING PYTHON AND JUPYTERLAB
 
 In this tutorial, we will:
-- Download and run the Windows Installer from the official Python website at [https://www.python.org](https://www.python.org). This installation will install the latest version of Python and a software called pip, used for installing and uninstalling Python packages. It will also install an interactive IDE called IDLE (Integrated Development and Learning Environment) and the complete documentation. 
+- Download and run the Windows Installer from the official Python website at [https://www.python.org](https://www.python.org). This installation will install the latest version of Python and a software called pip, used for installing and uninstalling Python packages. It will also install an interactive IDE called IDLE (Integrated Development and Learning Environment). 
 - Type and run Python code in IDLE.
 - Type and run Python code in Command Prompt. 
 - Run a Python module in Command Prompt.
@@ -59,14 +59,14 @@ First, run the Windows Installer. Remember to select `Add python.exe to PATH` on
 </kbd>
 <br><br>
 
-The following software will be installed:
+This installs IDLE, a command line interface and the complete documentation.:
 
 <kbd>
 <img src="./images/python_apps.png" width="220" alt="Python applications">
 </kbd>
 <br><br>
 
-You can type and run your code in IDLE or the command line interface:
+You can type and run your code in IDLE and the command line interface:
 
 <kbd>
 <img src="./images/python_idle.png" width="700" alt="Python IDLE">
