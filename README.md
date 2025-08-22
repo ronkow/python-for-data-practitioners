@@ -57,7 +57,7 @@ First, run the Windows Installer. Select `Add python.exe to PATH` on the Windows
 <img src="./images/python_install.png" width="500" alt="Python Windows Installer">
 
 
-Among the optional features, be sure to select `pip` which we will use to install Jupyterlab. The documentation can be accessed from the Python website so `Documentation` is optional. `py launcher` helps you to run different versions of Python installed on your system. We do not need this now so you can uncheck this option. `tcl/tk` (tool command language/toolkit) is for Python's tkinter module, used to build graphical user interfaces. If you do not wish to use IDLE, you can uncheck `tcl/tk and IDLE`. `Python test suite` is for core developers of the Python language so you can uncheck this as well. For this tutorial, we will select `Documentation`, `pip` and `tcl/tk and IDLE`.
+Among the optional features, be sure to select `pip` which we will use to install Jupyterlab. `Documentation` provides a link to the documention on the Python website as well as documentation you can access locally which I find useful. `py launcher` helps you to run different versions of Python installed on your system. We do not need this now so you can uncheck this option. `tcl/tk` (tool command language/toolkit) is for Python's tkinter module, used to build graphical user interfaces. If you do not wish to use IDLE, you can uncheck `tcl/tk and IDLE`. `Python test suite` is for core developers of the Python language so you can uncheck this as well. For this tutorial, we will select `Documentation`, `pip` and `tcl/tk and IDLE`.
 
 <img src="./images/python_optional_features.png" width="500" alt="Python Windows Installer">
 
