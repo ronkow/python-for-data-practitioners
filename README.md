@@ -62,7 +62,7 @@ Among the optional features, be sure to select `pip` which we will use to instal
 <img src="./images/python_optional_features.png" width="500" alt="Python Windows Installer">
 
 
-This installs IDLE, a command line interface and the complete documentation.:
+This installs IDLE, a command line interface and the documentation.:
 
 <kbd>
 <img src="./images/python_apps.png" width="220" alt="Python applications">
