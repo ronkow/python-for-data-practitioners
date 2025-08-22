@@ -59,9 +59,8 @@ First, run the Windows Installer. Select `Add python.exe to PATH` on the Windows
 </kbd>
 <br><br>
 
-<kbd>
+
 <img src="./images/python_optional_features.png" width="500" alt="Python Windows Installer">
-</kbd>
 <br><br>
 
 
