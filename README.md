@@ -14,7 +14,7 @@ The only prerequisite is to have some basic math knowledge (e.g. prime numbers, 
 
 
 
-The lessons cover general programming terminology and concepts, and Python code patterns and best practices. 
+The lessons cover general programming terminology and concepts, Python code patterns and Python best practices. 
 There are code examples, explanations and coding exercises with solutions.
 You need to study code patterns and understand every line of code in the examples.
 After that, type (or modify, if you like) and run the code to build your muscle memory. 
