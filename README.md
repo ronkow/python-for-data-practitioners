@@ -6,7 +6,7 @@ This is a course in Python programming for people who have never written code in
 Although I have designed the course for aspiring data practitioners, it is suitable for anyone interested in learning Python.   
 
 Python is the de-facto language for data science and machine learning. 
-In this course, we will use real-world [food recall data from the EU](https://webgate.ec.europa.eu/rasff-window/screen/search) and learn how to read and write data from/to files, how to clean and process text, and how to extract information from large datasets. We will learn essential concepts in programming such as data structures and learn some important open-source Python packages available in the [Python Package Index](https://pypi.org/).   
+In this course, we will use real-world [food recall data from the EU](https://webgate.ec.europa.eu/rasff-window/screen/search) and learn how to read/write data from/to files, how to clean and process text, and how to extract information from large datasets. We will learn essential concepts in programming such as data structures and learn to use important open-source Python packages available in the [Python Package Index](https://pypi.org/).   
 
 My goal is to provide clear, step-by-step tutorials to shorten the learning curve of any beginner programmer.
 I do not assume any prior knowledge of programming terminology and concepts.
