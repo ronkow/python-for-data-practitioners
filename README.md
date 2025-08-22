@@ -64,53 +64,40 @@ Among the optional features, be sure to select `pip` which we will use to instal
 
 This installs IDLE, a command line interface and the documentation.:
 
-<kbd>
+<!--<kbd>-->
 <img src="./images/python_apps.png" width="220" alt="Python applications">
-</kbd>
-<br><br>
+<!--</kbd>-->
+<!--<br><br>-->
+
 
 You can type and run your code in IDLE and the command line interface:
 
-<kbd>
 <img src="./images/python_idle.png" width="700" alt="Python IDLE">
-</kbd>
-<br><br>
 
-<kbd>
 <img src="./images/python_command_line.png" width="600" alt="Python command line">
-</kbd>
-<br><br>
+
 
 Test that you can access Python and pip in Command Prompt by checking the versions of Python and pip. Enter `python --version` and `pip --version`. Enter `pip list` to see the list of packages installed and their versions. pip is now the only package installed. 
 
-<kbd>
 <img src="./images/command_prompt_version.png" width="700" alt="Command Prompt">
-</kbd>
-<br><br>
+
 
 You can also type and run your code in Command Prompt. Enter `python` to access Python. Enter `exit` or `quit` to exit: 
 
-<kbd>
 <img src="./images/command_prompt_python.png" width="700" alt="Python command line">
-</kbd>
-<br><br>
 
 
 Next, type `print('Hello, world!')` in Notepad and save your code as a Python module (e.g `mymodule.py`). 
 Enter `cd` followed by the path to the directory where you saved your module. Run your module by entering the command `python mymodule.py`: 
 
-<kbd>
 <img src="./images/command_prompt_module.png" width="700" alt="Command Prompt">
-</kbd>
-<br><br>
+
 
 To install [JupyterLab](https://pypi.org/project/jupyterlab/), enter `pip install JupyterLab`. This command downloads and installs JupyterLab and other packages it depends on from the Python Package Index (PyPI) at [https://pypi.org](https://pypi.org/), the official software repository for publicly available Python packages. 
 When installation is complete, you will see the names of all the packages installed:
 
-<kbd>
 <img src="./images/command_prompt_jupyterlab.png" width="700" alt="JupyterLab dependent packages">
-</kbd>
-<br><br>
+
 
 You can also see the list of installed packages by entering `pip list`. The packages that JupyterLab depends on are known as JupyterLab's dependencies.  
 
@@ -125,23 +112,17 @@ pip is a Python package installer and manager. pip itself is a package, and it i
 
 To launch JupyterLab, enter `jupyter-lab` (note the hyphen) in Command Prompt. This will open JupyterLab in your default web browser.
 
-<kbd>
 <img src="./images/jupyterlab_default.png" width="800" alt="JupyterLab">
-</kbd>
-<br><br>
+
 
 To type and run your code interactively, use Notebooks. Click on the Notebook icon on the Launcher tab, or select `File` -> `New` -> `Notebook` to open a new Notebook, then select the default kernel option Python 3 (ipykernel):
 
-<kbd>
 <img src="./images/jupyterlab_notebook_select.png" width="800" alt="JupyterLab Notebook">
-</kbd>
-<br><br>
+
 
 In any cell, enter your code and click on the Run button (or use the keyboard shortcut `Shift` `Enter`):
 
-<kbd>
 <img src="./images/jupyterlab_notebook_hello.png" width="800" alt="JupyterLab Hello">
-</kbd>
-<br><br>
 
-Please refer to the JupyterLab [documentation](https://jupyterlab.readthedocs.io/en/latest/) for a complete user guide. You are now ready for our lessons.
+
+Refer to the JupyterLab [documentation](https://jupyterlab.readthedocs.io/en/latest/) for a complete user guide. You are now ready for our lessons.
