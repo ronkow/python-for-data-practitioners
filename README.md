@@ -45,11 +45,12 @@ There are many IDEs that support Python. For beginners, I recommend using [Jupyt
 ### INSTALLING PYTHON AND JUPYTERLAB
 
 In this tutorial, we will:
-- Download and run the Windows Installer from the official Python website at [https://www.python.org](https://www.python.org). This installation will install the latest version of Python and a software called pip, used for installing and uninstalling Python packages. It will also install an interactive IDE and the complete documentation. 
-- Type and run Python code in the IDE installed.
+- Download and run the Windows Installer from the official Python website at [https://www.python.org](https://www.python.org). This installation will install the latest version of Python and a software called pip, used for installing and uninstalling Python packages. It will also install an interactive IDE called IDLE (Integrated Development and Learning Environment) and the complete documentation. 
+- Type and run Python code in IDLE.
 - Type and run Python code in Command Prompt. 
 - Run a Python module in Command Prompt.
 - Install JupyterLab using pip in Command Prompt.
+- Type and run Python code in a Jupyter Notebook.
 
 First, run the Windows Installer. Remember to select `Add python.exe to PATH` on the Windows Installer so that you can run your code from any path in a command line interface.
 
