@@ -101,7 +101,7 @@ When installation is complete, you will see the names of all the packages instal
 
 You can also see the list of installed packages by entering `pip list`. The packages that JupyterLab depends on are known as JupyterLab's dependencies.  
 
-At this point, you may be wondering: What is a [Python package](https://docs.python.org/3/tutorial/modules.html#packages)? Why are there so many packages installed? What do you mean when you say JupyterLab depends on the packages? What does `pip` actually do?
+At this point, you may be wondering: What is a [Python package](https://docs.python.org/3/tutorial/modules.html#packages)? Why is the list of installed packages so long? What do you mean when you say JupyterLab depends on the packages? What does `pip` actually do?
 
 A Python package is a collection of Python code. Python packages extend Python's functionality. For example, the [scikit-learn](https://pypi.org/project/scikit-learn/) package implements methods and models for machine learning. Most publicly available packages are found in PyPI because anyone can develop and publish a package to PyPI. You can find a package in PyPI for almost any functionality. This is one of the reasons why Python is so widely used.   
 
