@@ -92,6 +92,7 @@ Enter `cd` followed by the path to the directory where you saved your module. Ru
 
 <img src="./images/command_prompt_module.png" width="700" alt="Command Prompt">
 
+For beginners, learning to write code using IDLE or Python's command line interface is not ideal. Writing code in a text editor like Notepad and running the module in Window's Command Prompt is slightly better but most programmers use an IDE for a much better coding experience. JupyterLab provides a clean and simple user interface for beginners. When you are more experienced, you can try more advanced IDEs such as the popular Visual Studio Code.
 
 To install [JupyterLab](https://pypi.org/project/jupyterlab/), enter `pip install JupyterLab`. This command downloads and installs JupyterLab and other packages it depends on from the Python Package Index (PyPI) at [https://pypi.org](https://pypi.org/), the official software repository for publicly available Python packages. 
 When installation is complete, you will see the names of all the packages installed:
