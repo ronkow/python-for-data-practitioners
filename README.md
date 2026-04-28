@@ -30,7 +30,7 @@ If you are a full-time student or have a day job, it is more effective to commit
 
 ### HOW DO I RUN PYTHON CODE?
 
-First, you need to install the Python Interpreter which checks and runs Python code. I will refer to the Python Interpreter as Python when it clearly refers to the software, not the language.  
+First, you need to install the Python Interpreter which is the software that checks and runs Python code. I will refer to the Python Interpreter as Python when it clearly refers to the software, not the language.  
 
 There are a few ways to run Python code:
 - Type and save your code as a Python module (a file saved with the `.py` extension) in a text editor (e.g. Notepad). Run the module in your operating system's command line interface.
