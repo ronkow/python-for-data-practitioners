@@ -1,5 +1,5 @@
 '''
-In our first lesson, we will learn the basics of FUNCTIONS.
+In this lesson, we will learn the basics of FUNCTIONS.
 It is good to learn about functions at the beginning because you should organise most of your code using functions.
 Functions make your code easier to understand.
 Functions are reusable. You can create a library of useful functions for reuse.
